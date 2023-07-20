@@ -6,13 +6,11 @@ definition:
       - border-s-[#c7c7c7]
       - border-solid
       - border-l
-
       - pl-2
     nav:
     title:
       - font-[gosha]
       - mb-[0.25em]
-
     navItem:
       - relative
       - after:opacity-0
