@@ -34,11 +34,16 @@ This will push to whatever Studio workspace you have configured with `uesio work
 
 ## Continuous integration
 
-The `main` branch will automatically be built and deployed to the `uat` site (`https://docs-uat.ues.io`)
+The `main` branch will automatically be built and deployed to the `prod` site in the Uesio dev environment (`https://docs.ues-dev.io`)
+
+You can also manually initiate this using the ["Manual patch release"](<(./github/workflows/manual_patch_release.yaml)>) workflow, selecting "dev" as the environment
+
+1. Pack and deploy the app's bundle
+2. Upsert docs articles
 
 ## Release to prod
 
-Use the ["Release to Prod"](./github/workflows/release.yaml) Github Action to initiate a Prod deployment to the `prod` site (accessible at `https://docs.ues.io`)
+Use the ["Manual patch release"](./github/workflows/manual_patch_release.yaml) workflow to initiate a Prod deployment to the `prod` site in the Uesio "prod" environment (accessible at `https://docs.ues.io`). Select "prod" as the environment target.
 
 To manually upsert documentation articles into a site, use `./seedprod.sh`, which will upsert doc article changes to whatever site is configured with `uesio siteadmin`
 
