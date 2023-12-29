@@ -34,9 +34,9 @@ This will push to whatever Studio workspace you have configured with `uesio work
 
 ## Continuous integration
 
-The `main` branch will automatically be built and deployed to the `prod` site in the Uesio dev environment (`https://docs.ues-dev.io`)
+The `main` branch will automatically be built and deployed to the `prod` site (`https://docs.ues.io`)
 
-You can also manually initiate this using the ["Manual patch release"](<(./github/workflows/manual_patch_release.yaml)>) workflow, selecting "dev" as the environment
+You can also manually initiate this using the ["Manual patch release"](<(./github/workflows/manual_patch_release.yaml)>) workflow.
 
 1. Pack and deploy the app's bundle
 2. Upsert docs articles

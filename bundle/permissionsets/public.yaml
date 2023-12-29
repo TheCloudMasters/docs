@@ -1,12 +1,31 @@
 name: public
 named: {}
-views: {}
-collections: {}
-routes: {}
+views:
+  uesio/docs.home: true
+  uesio/docs.navbar: true
+  uesio/docs.topbar: true
+collections:
+  uesio/cms.article:
+    read: true
+    create: false
+    edit: false
+    delete: false
+    viewall: true
+    modifyall: false
+  uesio/core.userfile:
+    read: true
+    create: false
+    edit: false
+    delete: false
+    modifyall: false
+    viewall: true
+routes:
+  uesio/docs.article: true
+  uesio/docs.home: true
 files: {}
-allowallcollections: true
-allowallviews: true
-allowallroutes: true
+allowallcollections: false
+allowallviews: false
+allowallroutes: false
 allowallfiles: true
 modifyallrecords: false
 viewallrecords: false
