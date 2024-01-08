@@ -18,13 +18,13 @@ definition:
                     path: home
                 - uesio/docs.navitem:
                     title: Create a use.io account
-                    path: account
+                    path: create-account
                 - uesio/docs.navitem:
                     title: Create your first app
-                    path: app
+                    path: first-app
                 - uesio/docs.navitem:
                     title: Deploy your app to a site
-                    path: site
+                    path: deploy-to-site
           - uesio/docs.navsection:
               title: Core Concepts
               items:
@@ -63,7 +63,7 @@ definition:
                     path: cli
                 - uesio/docs.navitem:
                     title: Creating Custom Components
-                    path: components
+                    path: creating-custom-components
                 - uesio/docs.navitem:
                     title: Self-hosting with ues.io server
                     path: uesio
