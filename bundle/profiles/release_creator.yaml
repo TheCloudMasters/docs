@@ -1,0 +1,5 @@
+name: release_creator
+label: Release Creator
+permissionSets:
+  - uesio/docs.release_creator
+  - uesio/core.public

@@ -1,0 +1,40 @@
+name: release_creator
+named: {}
+views: {}
+collections:
+  uesio/docs.release:
+    read: true
+    create: true
+    edit: true
+    delete: true
+    modifyall: false
+    viewall: false
+    fields:
+      uesio/docs.number:
+        read: true
+        edit: true
+      uesio/docs.notes:
+        read: true
+        edit: true
+      uesio/core.owner:
+        read: true
+        edit: true
+  uesio/core.userfile:
+    read: true
+    create: true
+    edit: false
+    delete: false
+    modifyall: false
+    viewall: false
+routes: {}
+files: {}
+bots: {}
+integrationActions: {}
+allowallbots: false
+allowallcollections: false
+allowallviews: false
+allowallroutes: false
+allowallfiles: false
+allowallintegrationactions: false
+modifyallrecords: false
+viewallrecords: false

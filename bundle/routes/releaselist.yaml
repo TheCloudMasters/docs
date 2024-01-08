@@ -1,0 +1,4 @@
+name: releaselist
+path: release
+view: release_list
+theme: uesio/core.default

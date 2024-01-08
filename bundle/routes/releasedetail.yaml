@@ -1,0 +1,4 @@
+name: releasedetail
+path: release/{recordid}
+view: release_detail
+theme: uesio/core.default

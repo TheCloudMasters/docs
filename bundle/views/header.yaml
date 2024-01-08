@@ -1,0 +1,29 @@
+name: header
+definition:
+  # Wires are how we pull in data
+  wires:
+  # Components are how we describe the layout of our view
+  components:
+    - uesio/io.viewheader:
+        logo:
+          - uesio/io.image:
+              file: uesio/core.logo
+              height: 34
+        left:
+          - uesio/io.button:
+              text: Releases
+              uesio.variant: uesio/io.nav
+              signals:
+                - signal: route/NAVIGATE_TO_ASSIGNMENT
+                  collection: uesio/cli_releases.release
+        right:
+          - uesio/io.button:
+              uesio.variant: uesio/io.nav
+              uesio.id: logout
+              text: Log Out
+              signals:
+                - signal: "user/LOGOUT"
+        avatar:
+          - uesio/io.avatar:
+              text: $User{initials}
+              image: $User{picture}

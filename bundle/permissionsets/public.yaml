@@ -19,6 +19,13 @@ collections:
     delete: false
     modifyall: false
     viewall: true
+  uesio/docs.release:
+    read: true
+    create: false
+    edit: false
+    delete: false
+    modifyall: false
+    viewall: true
 routes:
   uesio/docs.article: true
   uesio/docs.home: true
