@@ -5,7 +5,7 @@ definition:
     - uesio/io.viewlayout:
         header:
           - uesio/core.view:
-              view: uesio/docs.header
+              view: uesio/docs.topbar
         content:
           - uesio/core.view:
               view: release_detail_content
