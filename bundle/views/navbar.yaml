@@ -60,13 +60,13 @@ definition:
               items:
                 - uesio/docs.navitem:
                     title: Using the ues.io CLI
-                    path: cli
+                    path: using-the-cli
                 - uesio/docs.navitem:
                     title: Creating Custom Components
                     path: creating-custom-components
                 - uesio/docs.navitem:
                     title: Self-hosting with ues.io server
-                    path: uesio
+                    path: self-hosting-uesio
           - uesio/docs.navsection:
               title: Metadata Types
               items:
@@ -81,19 +81,19 @@ definition:
                     path: routes
                 - uesio/docs.navitem:
                     title: Views
-                    path: routes
+                    path: views
                 - uesio/docs.navitem:
                     title: Components
                     path: components
                 - uesio/docs.navitem:
                     title: Labels and Translations
-                    path: translations
+                    path: labels-and-translations
                 - uesio/docs.navitem:
                     title: Secrets and Config Values
-                    path: values
+                    path: secrets-and-config-values
                 - uesio/docs.navitem:
                     title: Profiles and Permission Sets
-                    path: sets
+                    path: profiles-and-permission-sets
                 - uesio/docs.navitem:
                     title: Bots
                     path: bots

@@ -9,8 +9,8 @@ deployment-and-app-bundles,uesio/cms.content,concepts/deployment-and-bundles.md
 generators,uesio/cms.content,concepts/generators.md
 multi-tenant-apps,uesio/cms.content,concepts/multi-tenant-apps.md
 signals,uesio/cms.content,concepts/signals.md
-the-uesio-runtime,uesio/cms.content,concepts/uesio-runtime.md
-the-uesio-security-model,uesio/cms.content,concepts/uesio-security-model.md
+uesio-runtime,uesio/cms.content,concepts/uesio-runtime.md
+uesio-security-model,uesio/cms.content,concepts/uesio-security-model.md
 wires,uesio/cms.content,concepts/wires.md
 creating-custom-components,uesio/cms.content,guides/creating-custom-components.md
 self-hosting-uesio,uesio/cms.content,guides/self-hosting-uesio.md
