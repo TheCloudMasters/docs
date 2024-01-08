@@ -39,7 +39,7 @@ definition:
                 root:
                   - min-h-screen
                   - p-6
-                  - ml-36
+                  - ml-24
                   - lg:mr-60
                   - mr-10
                   - mb-60

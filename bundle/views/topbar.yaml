@@ -6,19 +6,20 @@ definition:
   components:
     - uesio/io.viewheader:
         logo:
-          - uesio/io.image:
-              file: uesio/docs.logo
-              height: 34
-              signals:
-                - signal: "route/REDIRECT"
-                  path: "https://$Site{domain}"
-        center:
-          - uesio/io.button:
-              text: Documentation
-              uesio.variant: uesio/io.nav
-              signals:
-                - signal: route/NAVIGATE
-                  path: home
+          - uesio/io.group:
+              components:
+                - uesio/io.image:
+                    file: uesio/docs.logo
+                    height: 34
+                    signals:
+                      - signal: "route/REDIRECT"
+                        path: "https://$Site{domain}"
+                - uesio/io.button:
+                    text: Documentation
+                    uesio.variant: uesio/io.nav
+                    signals:
+                      - signal: route/NAVIGATE
+                        path: home
         right:
            - uesio/io.button:
               uesio.variant: uesio/docs.borderless

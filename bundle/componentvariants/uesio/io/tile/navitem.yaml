@@ -6,3 +6,5 @@ definition:
       - text-slate-800
       - py-2
       - text-sm
+      - hover:underline
+      - hover:text-primary
