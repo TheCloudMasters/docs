@@ -12,7 +12,7 @@ definition:
               signals:
                 - signal: "route/REDIRECT"
                   path: "https://$Site{domain}"
-        left:
+        center:
           - uesio/io.button:
               text: Documentation
               uesio.variant: uesio/io.nav
