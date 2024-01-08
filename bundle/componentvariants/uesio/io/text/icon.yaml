@@ -1,7 +1,7 @@
 name: icon
+label: Icon
 public: true
 extends: uesio/io.icon
-label: Icon
 definition:
   uesio.styleTokens:
     root:

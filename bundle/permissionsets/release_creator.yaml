@@ -2,6 +2,14 @@ name: release_creator
 named: {}
 views: {}
 collections:
+  uesio/core.userfile:
+    read: true
+    create: true
+    edit: false
+    delete: false
+    modifyall: false
+    viewall: false
+    fields: {}
   uesio/docs.release:
     read: true
     create: true
@@ -10,22 +18,15 @@ collections:
     modifyall: false
     viewall: false
     fields:
-      uesio/docs.number:
+      uesio/core.owner:
         read: true
         edit: true
       uesio/docs.notes:
         read: true
         edit: true
-      uesio/core.owner:
+      uesio/docs.number:
         read: true
         edit: true
-  uesio/core.userfile:
-    read: true
-    create: true
-    edit: false
-    delete: false
-    modifyall: false
-    viewall: false
 routes: {}
 files: {}
 bots: {}

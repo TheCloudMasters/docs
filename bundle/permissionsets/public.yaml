@@ -10,8 +10,9 @@ collections:
     create: false
     edit: false
     delete: false
-    viewall: true
     modifyall: false
+    viewall: true
+    fields: {}
   uesio/core.userfile:
     read: true
     create: false
@@ -19,6 +20,7 @@ collections:
     delete: false
     modifyall: false
     viewall: true
+    fields: {}
   uesio/docs.release:
     read: true
     create: false
@@ -26,13 +28,18 @@ collections:
     delete: false
     modifyall: false
     viewall: true
+    fields: {}
 routes:
   uesio/docs.article: true
   uesio/docs.home: true
 files: {}
+bots: {}
+integrationActions: {}
+allowallbots: false
 allowallcollections: false
 allowallviews: false
 allowallroutes: false
 allowallfiles: true
+allowallintegrationactions: false
 modifyallrecords: false
 viewallrecords: false
