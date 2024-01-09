@@ -1,0 +1,4 @@
+name: binary_mac
+label: CLI for Mac (Intel)
+type: FILE
+createOnly: true
