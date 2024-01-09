@@ -19,9 +19,9 @@ At this point, you've already interacted with 4 different apps owned by the uesi
 
 Before we move on, go ahead and create your first app by clicking the + button in the top left.
 
-![Create your first app]($File{uesio/docs.createnewapp} "create your first app")
+![Create your first app](./createnewapp.png "create your first app")
 
-![New app dialog]($File{uesio/docs.newappdialog} "new app dialog")
+![New app dialog](./newappdialog.png "new app dialog")
 
 👩‍💻 **CLI** 👨🏿‍💻
 
@@ -68,11 +68,11 @@ Let's start by adding a collection `animal` which we'll use for our collection m
 
 Great! Now, we can either use "Suggest Fields" to let AI suggest fields for us, or we can manually add fields using "Create new field". Let's try out the "Suggest Fields" and see what we get:
 
-![Suggest fields]($File{uesio/docs.suggestfieldsbutton} "use ai to suggest fields")
+![Suggest fields](./suggestfieldsbutton.png "use ai to suggest fields")
 
 Cool! This is a great starting point for our collection. Let's go ahead and "Save Field Changes" to add these fields to our collection.
 
-![Suggest fields output]($File{uesio/docs.suggestfieldsoutput} "suggested fields")
+![Suggest fields output](./suggestfieldsoutput.png "suggested fields")
 
 We can also add our own fields if we want, but this will do for now.
 
@@ -86,9 +86,9 @@ We can manage the data in a workspace collection using the "Manage Data" button,
 
 To quickly data to a collection, though, we can use "Generate sample data", which will use some AI magic to create data matching our collection fields specification.
 
-![Generate sample data]($File{uesio/docs.generatesampledata} "generate sample data")
+![Generate sample data](./generatesampledata.png "generate sample data")
 
-![AI generated data]($File{uesio/docs.aigenerateddata} "AI generated data")
+![AI generated data](./aigenerateddata.png "AI generated data")
 
 ## Views
 
@@ -111,9 +111,9 @@ Let's use "Generate List View".
 
 First, select the collection we want to use (e.g. "animals"), then pick the fields from that collection that we want to display in our list view.
 
-![Generator params]($File{uesio/docs.listviewgeneratorparams} "list view generator params")
+![Generator params](./listviewgeneratorparams.png "list view generator params")
 
-![list view result]($File{uesio/docs.generatedlistview} "Generated list view")
+![list view result](./generatedlistview.png "Generated list view")
 
 At this point, we _could_ click on our view to enter the View Builder, which is where the real magic of ues.io happens, but we'll wait on that just a bit, until we've rounded out our whirlwind tour :)
 
@@ -133,13 +133,13 @@ Since this is view displays a list of animals, it would be great if we could go 
 
 > `uesio generate route`
 
-![create route dialog]($File{uesio/docs.createroute} "Create route")
+![create route dialog](./createroute.png "Create route")
 
 Great! Now, click **Preview**
 
 🎉 Hurray! We've got ourselves a working app. We can create, edit, delete, and save the records in our animals collection.
 
-![route preview]($File{uesio/docs.routepreview} "route preview")
+![route preview](./routepreview.png "route preview")
 
 ## Conclusion
 

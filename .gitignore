@@ -3,4 +3,4 @@ node_modules/
 bundle/componentpacks/*/dist/
 
 # Docs - generated files
-data/articles/docs/upload.csv
+./data/articles/upload.csv
