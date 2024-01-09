@@ -53,12 +53,25 @@ The docs site is built on the `uesio/cms` app, which includes an `article` colle
 
 Markdown content can be written and previewed locally using VS Code's Markdown Preview plugin, or it can be previewed in a Studio Workspace or Site.
 
+Articles can reference local images or other content as long as they are siblings, via a normal relative image reference, e.g. 
+
+```
+![New app dialog](./newappdialog.png "new app dialog")
+```
+
+All articles and associated files are uploaded via the "seed" script.
+
+Simply run `npm run push-content` to upload all docs articles and images, etc.
+
 ## Edit docs articles in a Workspace
 
-1. Deploy uesio docs app
-2. Upsert doc articles into your workspace
+```
+npm run push
+```
 
-```
-uesio deploy
-./seed.sh
-```
+does the following:
+
+1. Deploys the uesio docs app to your workspace
+2. Upsert doc articles and static content
+
+
