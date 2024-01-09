@@ -21,19 +21,19 @@ definition:
                       - signal: route/NAVIGATE
                         path: home
         right:
-           - uesio/io.button:
+          - uesio/io.button:
               uesio.variant: uesio/docs.borderless
               text: Community
               signals:
                 - signal: route/REDIRECT
                   path: https://community.ues.io
-           - uesio/io.button:
+          - uesio/io.button:
               uesio.variant: uesio/docs.borderless
               text: Blog
               signals:
                 - signal: route/REDIRECT
                   path: "https://$Site{domain}/blog"
-           - uesio/io.button:
+          - uesio/io.button:
               uesio.variant: uesio/docs.calltoaction
               text: Login
               signals:

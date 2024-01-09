@@ -1,20 +1,12 @@
 name: navsection
 category: DATA
-title: Nav section
 type: DECLARATIVE
-discoverable: true
-description: A section within the docs nav sidebar
+slots:
+  - name: items
 properties:
   - type: TEXT
     name: title
     label: The title for the section
-defaultDefinition:
-  title: Section title
-sections:
-  - type: HOME
-    properties:
-      - title
-  - type: DISPLAY
 definition:
   - uesio/io.box:
       uesio.variant: uesio/docs.navsection
@@ -24,5 +16,13 @@ definition:
             text: $Prop{title}
         - uesio/core.slot:
             name: items
-slots:
-  - name: items
+title: Nav section
+discoverable: true
+description: A section within the docs nav sidebar
+defaultDefinition:
+  title: Section title
+sections:
+  - type: HOME
+    properties:
+      - title
+  - type: DISPLAY
