@@ -32,6 +32,7 @@ collections:
 routes:
   uesio/docs.article: true
   uesio/docs.home: true
+  uesio/docs.signuplanding: true
 files: {}
 bots: {}
 integrationActions: {}

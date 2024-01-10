@@ -1,0 +1,12 @@
+name: default
+authsource: uesio/core.platform
+profile: public
+usernameTemplate: ${username}
+landingRoute: signuplanding
+autoLogin: false
+enableSelfSignup: false
+usernameRegex: ^[a-z0-9_]+$
+usernameFormatExplanation: lowercase a-z, 0-9, and underscore only
+createLoginBot: default_createlogin
+signupBot: default_signup
+forgotPasswordBot: default_forgotpassword
