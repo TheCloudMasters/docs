@@ -5,6 +5,7 @@
 	"scripts": {
 		"init": "uesio app clone",
 		"lint": "prettier --check .",
+		"lint-fix": "prettier -w .",
 		"push": "uesio workspace deploy && ./seed.sh",
 		"push-content": "./seed.sh",
 		"pull": "uesio workspace retrieve",

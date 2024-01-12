@@ -2,8 +2,7 @@ import { ListenerBotApi } from "@uesio/bots"
 
 export default function default_signup(bot: ListenerBotApi) {
 	const namespace = bot.getNamespace()
-	const redirect =
-		"/site/auth/" + namespace + "/default/signup/confirm"
+	const redirect = "/site/auth/" + namespace + "/default/signup/confirm"
 	const username = bot.params.get("username")
 	const email = bot.params.get("email")
 	const code = bot.params.get("code")

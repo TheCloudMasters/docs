@@ -53,7 +53,7 @@ The docs site is built on the `uesio/cms` app, which includes an `article` colle
 
 Markdown content can be written and previewed locally using VS Code's Markdown Preview plugin, or it can be previewed in a Studio Workspace or Site.
 
-Articles can reference local images or other content as long as they are siblings, via a normal relative image reference, e.g. 
+Articles can reference local images or other content as long as they are siblings, via a normal relative image reference, e.g.
 
 ```
 ![New app dialog](./newappdialog.png "new app dialog")
@@ -73,5 +73,3 @@ does the following:
 
 1. Deploys the uesio docs app to your workspace
 2. Upsert doc articles and static content
-
-

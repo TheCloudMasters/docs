@@ -2,5 +2,5 @@ name: release
 label: Release
 pluralLabel: Releases
 uniqueKey:
- - release_number
+  - release_number
 nameField: release_number
