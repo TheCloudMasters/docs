@@ -1,0 +1,17 @@
+name: download_release
+type: ROUTE
+dialect: TYPESCRIPT
+params:
+  - name: version
+    label: Version Number
+    type: TEXT
+    required: true
+  - name: platform
+    label: Platform to download for
+    type: SELECT
+    required: true
+    selectList: release_platform
+  - name: arch
+    label: System architecture
+    type: TEXT
+    required: false

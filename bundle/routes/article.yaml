@@ -1,6 +1,6 @@
 name: article
 public: true
-path: "{slug}"
+path: '{slug}'
 view: home
 theme: default
 title: ues.io - $Record{article:uesio/cms.name}
