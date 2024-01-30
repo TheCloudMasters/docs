@@ -7,6 +7,10 @@ definition:
       fields:
         uesio/docs.number:
         uesio/docs.notes:
+        uesio/docs.binary_mac:
+        uesio/docs.binary_mac_arm:
+        uesio/docs.binary_linux:
+        uesio/docs.binary_windows:
       conditions:
         - field: uesio/core.id
           value: $Param{recordid}
@@ -17,9 +21,9 @@ definition:
           - type: paramIsSet
             param: recordid
         components:
-          - uesio/io.list:
+          - uesio/io.item:
               wire: release
-              uesio.id: releaseList
+              uesio.id: releaseItem
               components:
                 - uesio/io.titlebar:
                     title: $RecordMeta{name}
@@ -30,27 +34,36 @@ definition:
                           components:
                             - uesio/io.button:
                                 signals:
+                                  - signal: component/CALL
+                                    component: uesio/io.item
+                                    componentsignal: TOGGLE_MODE
+                                    targettype: specific
+                                    componentid: releaseItem
+                                text: Edit
+                                uesio.variant: uesio/io.secondary
+                                uesio.display:
+                                  - type: wireHasNoChanges
+                                    wire: release
+                            - uesio/io.button:
+                                signals:
                                   - signal: wire/SAVE
                                     wires:
                                       - release
                                 text: Save
                                 hotkey: "meta+s"
                                 uesio.variant: uesio/io.secondary
+                                uesio.display:
+                                  - type: wireHasChanges
+                                    wire: release
                             - uesio/io.button:
                                 signals:
                                   - signal: wire/CANCEL
                                     wire: release
                                 text: Cancel
                                 uesio.variant: uesio/io.secondary
-                            - uesio/io.button:
-                                signals:
-                                  - signal: component/CALL
-                                    component: uesio/io.list
-                                    componentsignal: TOGGLE_MODE
-                                    targettype: specific
-                                    componentid: releaseList
-                                text: Mode
-                                uesio.variant: uesio/io.secondary
+                                uesio.display:
+                                  - type: wireHasChanges
+                                    wire: release
                 - uesio/io.box:
                     uesio.variant: uesio/io.section
                     components:
@@ -58,6 +71,17 @@ definition:
                           fieldId: uesio/docs.number
                       - uesio/io.field:
                           fieldId: uesio/docs.notes
+                - uesio/io.box:
+                    uesio.variant: uesio/io.section
+                    components:
+                      - uesio/io.field:
+                          fieldId: uesio/docs.binary_mac
+                      - uesio/io.field:
+                          fieldId: uesio/docs.binary_mac_arm
+                      - uesio/io.field:
+                          fieldId: uesio/docs.binary_linux
+                      - uesio/io.field:
+                          fieldId: uesio/docs.binary_windows
     - uesio/io.box:
         uesio.display:
           - type: paramIsNotSet

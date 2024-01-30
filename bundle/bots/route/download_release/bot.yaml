@@ -13,5 +13,6 @@ params:
     selectList: release_platform
   - name: arch
     label: System architecture
-    type: TEXT
+    type: SELECT
     required: false
+    selectList: system_architecture

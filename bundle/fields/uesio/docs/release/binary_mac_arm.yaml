@@ -3,4 +3,4 @@ label: CLI for Mac (Apple Silicon)
 type: FILE
 createOnly: true
 file:
-  accept: application/octet-stream
+  accept: ANY
