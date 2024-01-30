@@ -4,6 +4,8 @@ homeRoute: uesio/docs.home
 defaultTheme: uesio/docs.default
 publicProfile: uesio/docs.public
 dependencies:
+  uesio/builder:
+    version: v0.0.1
   uesio/cms:
     version: v0.1.0
   uesio/core:

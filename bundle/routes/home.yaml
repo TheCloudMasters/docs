@@ -1,12 +1,10 @@
 name: home
 public: true
 path: home
-view: uesio/docs.home
-redirect: ""
+view: home
 params:
   slug: home
-theme: uesio/docs.default
-type: ""
+theme: default
 title: $Site{title} - Documentation
 tags:
   - type: meta

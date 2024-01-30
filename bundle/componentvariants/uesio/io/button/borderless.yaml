@@ -1,6 +1,6 @@
 name: borderless
-extends: uesio/docs.calltoaction
 label: Borderless
+extends: uesio/docs.calltoaction
 definition:
   uesio.styleTokens:
     root:

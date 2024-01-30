@@ -1,0 +1,4 @@
+name: download_release
+type: bot
+path: api/releases/cli/{version}/download
+bot: download_release

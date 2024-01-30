@@ -1,0 +1,31 @@
+name: navitem
+category: DATA
+type: DECLARATIVE
+properties:
+  - type: TEXT
+    name: title
+    label: Item title
+  - type: TEXT
+    name: path
+    label: Path to the associated docs article
+definition:
+  - uesio/io.tile:
+      uesio.variant: uesio/docs.navitem
+      content:
+        - uesio/io.text:
+            text: $Prop{title}
+      signals:
+        - signal: route/NAVIGATE
+          path: $Prop{path}
+title: Nav item
+discoverable: true
+description: An item within the docs navigation sidebar
+defaultDefinition:
+  title: Item
+  path: home
+sections:
+  - type: HOME
+    properties:
+      - title
+      - path
+  - type: DISPLAY

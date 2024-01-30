@@ -1,6 +1,6 @@
 name: docsmarkdown
-extends: uesio/io.default
 label: Docs Markdown
+extends: uesio/io.default
 definition:
   uesio.styleTokens:
     h1:

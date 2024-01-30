@@ -1,0 +1,6 @@
+name: binary_windows
+label: CLI for Windows
+type: FILE
+createOnly: true
+file:
+  accept: ANY

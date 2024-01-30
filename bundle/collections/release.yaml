@@ -1,0 +1,6 @@
+name: release
+label: Release
+pluralLabel: Releases
+uniqueKey:
+  - number
+nameField: number
