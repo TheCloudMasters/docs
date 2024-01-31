@@ -1,9 +1,0 @@
-name: release_platform
-label: Release Platform
-options:
-  - label: Linux
-    value: linux
-  - label: MacOS
-    value: mac
-  - label: Windows
-    value: windows

@@ -21,14 +21,6 @@ collections:
     modifyall: false
     viewall: true
     fields: {}
-  uesio/docs.release:
-    read: true
-    create: false
-    edit: false
-    delete: false
-    modifyall: false
-    viewall: true
-    fields: {}
 routes:
   uesio/docs.article: true
   uesio/docs.home: true

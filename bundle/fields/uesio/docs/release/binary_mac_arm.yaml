@@ -1,6 +1,0 @@
-name: binary_mac_arm
-label: CLI for Mac (Apple Silicon)
-type: FILE
-createOnly: true
-file:
-  accept: ANY

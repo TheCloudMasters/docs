@@ -1,6 +1,0 @@
-name: binary_linux
-label: CLI for Linux
-type: FILE
-createOnly: true
-file:
-  accept: ANY

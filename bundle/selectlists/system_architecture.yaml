@@ -1,7 +1,0 @@
-name: system_architecture
-label: System Architecture
-options:
-  - label: Intel
-    value: amd64
-  - label: M1+ (Apple Silicon)
-    value: arm64
