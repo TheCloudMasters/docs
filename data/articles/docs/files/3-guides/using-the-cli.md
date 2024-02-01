@@ -2,23 +2,29 @@
 
 ## Download the CLI
 
+Uesio's CLI is distributed as a platform-specific binary executable.
+
+The latest Uesio CLI release binaries, and release notes, can be found at [the uesio Github repo releases area](https://github.com/ues-io/uesio/releases).
+
 Click here to download the ues.io CLI for your operating system and architecture:
 
--   [Linux]($File{uesio/docs.clilinux})
--   [Mac OS (Intel)]($File{uesio/docs.climac})
--   [Mac OS (ARM)]($File{uesio/docs.climacarm64})
--   [Windows]($File{uesio/docs.cliwindows})
+-   [Linux](https://github.com/ues-io/uesio/releases/download/v0.5.8/uesio-linux)
+-   [Mac OS (Intel)](https://github.com/ues-io/uesio/releases/download/v0.5.8/uesio-macos-amd64)
+-   [Mac OS (M1+)](https://github.com/ues-io/uesio/releases/download/v0.5.8/uesio-macos-arm64)
+-   [Windows](https://github.com/ues-io/uesio/releases/download/v0.5.8/uesio.exe)
 
 Next, make the binary executable, and move it into your PATH, so that you can use it from any directory:
 
 #### Mac OS
 
 ```
-chmod +x ~/Downloads/file_uesio-macos-amd64
-sudo mv ~/Downloads/file_uesio-macos-amd64 /usr/local/bin/uesio
+chmod +x ~/Downloads/uesio-macos-arm64
+sudo mv ~/Downloads/uesio-macos-arm64 /usr/local/bin/uesio
 ```
 
 (and make sure /usr/local/bin is in your PATH)
+
+**NOTE**: You will be blocked from running the CLI until you trust the app, by going to **System Preferences > Security & Privacy**, and then under "Allow apps from", indicate that you want to allow "uesio" to be run. The next time you try to run `uesio` commands, it should succeed.
 
 ### Testing the CLI
 
@@ -55,8 +61,6 @@ Flags:
 Use "uesio [command] --help" for more information about a command.
 ```
 
-**NOTE**: On Mac OS, you will be blocked from running the CLI until you trust the app, by going to System Preferences > Security & Privacy, and then under "Allow apps from", indicate that you want to allow "uesio" to be run. The next time you try to run "uesio", it should succeed
-
 ## Logging in to the Studio
 
 Once you've downloaded and trusted the CLI, you should be able to login to the Studio with `uesio login`
@@ -69,5 +73,3 @@ Username: luigi
 Password: ***********
 Successfully logged in as user: Luigi Vampa (uesio/studio.standard)
 ```
-
-## Setting up an app
