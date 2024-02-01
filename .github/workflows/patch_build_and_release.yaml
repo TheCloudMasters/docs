@@ -17,9 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     environment: ${{ inputs.environment }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
       - name: Setup node
         uses: actions/setup-node@v3
         with:
@@ -29,7 +29,7 @@ jobs:
         shell: bash
         run: |
           # Symlink the Uesio CLI for subsequent use
-          wget -q https://github.com/ues-io/uesio/releases/download/v0.5.5/uesio-linux
+          wget -q https://github.com/ues-io/uesio/releases/download/v0.5.8/uesio-linux
           chmod +x uesio-linux
           sudo ln -s $PWD/uesio-linux /usr/local/bin/uesio
       - name: Lint
