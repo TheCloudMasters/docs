@@ -7,7 +7,7 @@ Collections are where you define your data storage and the data schema. A schema
 -   Fields & Data types: Specify the format and limitations of data in each field (e.g., number, string, date).
 -   Relationships: Define how collections connect to each other (e.g., one customer can have many orders).
 
-We are going to step through the following concepts:
+*   We are going to step through the following concepts:
 
 1. Create a Collection
 2. Manage Data
