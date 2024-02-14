@@ -1,8 +1,7 @@
 name: navbar
 definition:
   # Wires are how we pull in data
-  wires:
-  # Components are how we describe the layout of our view
+  wires: # Components are how we describe the layout of our view
   components:
     - uesio/io.box:
         uesio.styleTokens:
@@ -17,7 +16,7 @@ definition:
                     title: Introduction
                     path: home
                 - uesio/docs.navitem:
-                    title: Create a use.io account
+                    title: Create a ues.io account
                     path: create-account
                 - uesio/docs.navitem:
                     title: Create your first app
@@ -55,6 +54,12 @@ definition:
                 - uesio/docs.navitem:
                     title: Generators
                     path: generators
+                - uesio/docs.navitem:
+                    title: Workspaces
+                    path: workspaces
+                - uesio/docs.navitem:
+                    title: Teams
+                    path: teams
           - uesio/docs.navsection:
               title: Guides
               items:

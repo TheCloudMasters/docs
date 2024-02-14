@@ -30,3 +30,5 @@ definition:
       - my-4
     a:
       - text-blue-600
+    img:
+      - max-w-2xl

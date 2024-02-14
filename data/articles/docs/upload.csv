@@ -2,6 +2,7 @@ uesio/core.recordid,uesio/core.fieldid,uesio/core.path
 self-hosting-uesio,uesio/cms.content,3-guides/self-hosting-uesio.md
 creating-custom-components,uesio/cms.content,3-guides/creating-custom-components.md
 using-the-cli,uesio/cms.content,3-guides/using-the-cli.md
+bots,uesio/cms.content,4-metadata-types/bots/bots.md
 profiles-and-permission-sets,uesio/cms.content,4-metadata-types/profiles-and-permission-sets.md
 components,uesio/cms.content,4-metadata-types/components.md
 labels-and-translations,uesio/cms.content,4-metadata-types/labels-and-translations.md
