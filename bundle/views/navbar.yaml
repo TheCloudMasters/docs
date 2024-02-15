@@ -29,10 +29,10 @@ definition:
               items:
                 - uesio/docs.navitem:
                     title: Declarative App Development
-                    path: development
+                    path: declarative-app-development
                 - uesio/docs.navitem:
                     title: Multi-tenant Apps
-                    path: apps
+                    path: multi-tenant-apps
                 - uesio/docs.navitem:
                     title: The ues.io Runtime
                     path: runtime
