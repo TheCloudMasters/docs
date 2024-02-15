@@ -1,6 +1,6 @@
 # Labels and Translations
 
-This is a really handy feature if you are building apps for different countries or people of different languages. ues.io checks the user's language settingnand then applies the translated labels for that language in the application user interface. Currently there are 7 supported languages:
+This is a really handy feature if you are building apps for different countries or people of different languages. ues.io checks the user's language setting and then applies the translated labels for that language in the application user interface. Currently there are 7 supported languages:
 
 -   English
 -   Spanish
