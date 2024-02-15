@@ -1,6 +1,6 @@
 # Labels and Translations
 
-This is a really handy feature if you are building apps for different countries or people of different languages. ues.io checks the language setting of the user's local machine and then applies the language and the translated labels in the application user interface. Currently there are currently 7 supported languages:
+This is a really handy feature if you are building apps for different countries or people of different languages. ues.io checks the language setting of the user's local machine and then applies the language and the translated labels in the application user interface. Currently there are 7 supported languages:
 
 -   English
 -   Spanish
@@ -17,7 +17,7 @@ This is a really handy feature if you are building apps for different countries 
 
 -   There are 11 default labels such as Create, Delete, etc. that can be translated in your chosen language.
 
--   If you need more labels for your Button actions or Field labels or elsewhere then you can create a new label.
+-   If you need more labels for your Button actions or Field labels or elsewhere then you can create a new label and transalte it in your chosen translation language.
 
 ![Create Label](./image2.png "Create Label")
 
