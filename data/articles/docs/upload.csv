@@ -62,6 +62,7 @@ home,uesio/cms.content,1-getting-started/home.md
 generators,uesio/cms.content,2-core-concepts/generators.md
 wires,uesio/cms.content,2-core-concepts/wires.md
 bundle-store,uesio/cms.content,2-core-concepts/bundle-store.md
+signals,uesio/cms.content,2-core-concepts/signals/signals.md
 declarative-app-development,uesio/cms.content,2-core-concepts/declarative-app-development/declarative-app-development.md
 workspaces,uesio/cms.content,2-core-concepts/workspaces/workspaces.md
 workspaces,,2-core-concepts/workspaces/image4.png
@@ -72,7 +73,6 @@ workspaces,,2-core-concepts/workspaces/image3.png
 teams,,2-core-concepts/teams/image1.png
 teams,uesio/cms.content,2-core-concepts/teams/teams.md
 teams,,2-core-concepts/teams/image2.png
-signals,uesio/cms.content,2-core-concepts/signals.md
 deployment-and-bundles,uesio/cms.content,2-core-concepts/deployment-and-bundles.md
 uesio-runtime,uesio/cms.content,2-core-concepts/uesio-runtime.md
 uesio-security-model,uesio/cms.content,2-core-concepts/uesio-security-model.md
