@@ -4,8 +4,12 @@ creating-custom-components,uesio/cms.content,3-guides/creating-custom-components
 using-the-cli,uesio/cms.content,3-guides/using-the-cli.md
 bots,uesio/cms.content,4-metadata-types/bots/bots.md
 profiles-and-permission-sets,uesio/cms.content,4-metadata-types/profiles-and-permission-sets.md
+labels-and-translations,uesio/cms.content,4-metadata-types/labels-and-translations/labels-and-translations.md
+labels-and-translations,,4-metadata-types/labels-and-translations/image4.png
+labels-and-translations,,4-metadata-types/labels-and-translations/image1.png
+labels-and-translations,,4-metadata-types/labels-and-translations/image2.png
+labels-and-translations,,4-metadata-types/labels-and-translations/image3.png
 components,uesio/cms.content,4-metadata-types/components.md
-labels-and-translations,uesio/cms.content,4-metadata-types/labels-and-translations.md
 secrets-and-config-values,uesio/cms.content,4-metadata-types/secrets-and-config-values.md
 files,uesio/cms.content,4-metadata-types/files/files.md
 files,,4-metadata-types/files/image1.png
