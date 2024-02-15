@@ -61,7 +61,7 @@ Signals are executed in the front-end and rely on an interaction or a state to b
     Log To Browser Console
     Record Performance Marker
 
--   Components – Components in the Studio View Builder can be controlled either toggled between edit and read mode and more and for a specific component or all components with the same id.  
+-   Components – Components in the Studio View Builder can be controlled, either toggled between edit and read mode, or for controlling a specific component or all components with the same id.  
     Run Component Signal
 
 -   Collections – Collection of your data.  
