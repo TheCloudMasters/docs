@@ -75,5 +75,5 @@ teams,,2-core-concepts/teams/image2.png
 signals,uesio/cms.content,2-core-concepts/signals.md
 deployment-and-bundles,uesio/cms.content,2-core-concepts/deployment-and-bundles.md
 uesio-runtime,uesio/cms.content,2-core-concepts/uesio-runtime.md
-multi-tenant-apps,uesio/cms.content,2-core-concepts/apps/multi-tenant-apps.md
 uesio-security-model,uesio/cms.content,2-core-concepts/uesio-security-model.md
+multi-tenant-apps,uesio/cms.content,2-core-concepts/multi-tenant-apps/multi-tenant-apps.md
