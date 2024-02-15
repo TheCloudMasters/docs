@@ -17,7 +17,7 @@ This is a really handy feature if you are building apps for different countries 
 
 -   There are 11 default labels such as Create, Delete, etc. that can be translated in your chosen language.
 
--   If you need more labels for your Button actions or Field labels or elsewhere then you can create a new label and transalte it in your chosen translation language.
+-   If you need more labels for your Button actions or Field labels or elsewhere then you can create a new label and translate it in your chosen translation language.
 
 ![Create Label](./image2.png "Create Label")
 
