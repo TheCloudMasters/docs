@@ -5,6 +5,8 @@ using-the-cli,uesio/cms.content,3-guides/using-the-cli.md
 bots,uesio/cms.content,4-metadata-types/bots/bots.md
 components,uesio/cms.content,4-metadata-types/components.md
 labels-and-translations,uesio/cms.content,4-metadata-types/labels-and-translations.md
+components,uesio/cms.content,4-metadata-types/components/components.md
+components,,4-metadata-types/components/image1.png
 secrets-and-config-values,uesio/cms.content,4-metadata-types/secrets-and-config-values.md
 files,uesio/cms.content,4-metadata-types/files/files.md
 files,,4-metadata-types/files/image1.png
