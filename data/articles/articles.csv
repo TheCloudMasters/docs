@@ -24,3 +24,5 @@ profiles-and-permission-sets,Profiles and Permission Sets,"Grant users access to
 routes,Routes,"Define URL paths where your views can be accessed with routes"
 secrets-and-config-values,Secrets and config values,"Define dynamic application configuration values with config values and secrets"
 views,Views,"Create user interfaces with views"
+workspaces,Workspaces,"Develop and make changes to your apps with workspaces"
+teams,Teams,"Work together on apps with teams"
