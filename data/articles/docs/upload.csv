@@ -3,7 +3,6 @@ self-hosting-uesio,uesio/cms.content,3-guides/self-hosting-uesio.md
 creating-custom-components,uesio/cms.content,3-guides/creating-custom-components.md
 using-the-cli,uesio/cms.content,3-guides/using-the-cli.md
 bots,uesio/cms.content,4-metadata-types/bots/bots.md
-profiles-and-permission-sets,uesio/cms.content,4-metadata-types/profiles-and-permission-sets.md
 components,uesio/cms.content,4-metadata-types/components.md
 labels-and-translations,uesio/cms.content,4-metadata-types/labels-and-translations.md
 secrets-and-config-values,uesio/cms.content,4-metadata-types/secrets-and-config-values.md
@@ -32,6 +31,9 @@ views,,4-metadata-types/views/image3.png
 routes,uesio/cms.content,4-metadata-types/routes/routes.md
 routes,,4-metadata-types/routes/image1.png
 routes,,4-metadata-types/routes/image2.png
+profiles-and-permission-sets,uesio/cms.content,4-metadata-types/profiles-and-permission-sets/profiles-and-permission-sets.md
+profiles-and-permission-sets,,4-metadata-types/profiles-and-permission-sets/image1.png
+profiles-and-permission-sets,,4-metadata-types/profiles-and-permission-sets/image2.png
 first-app,,1-getting-started/first-app/generatedlistview.png
 first-app,,1-getting-started/first-app/suggestfieldsbutton.png
 first-app,,1-getting-started/first-app/aigenerateddata.png
