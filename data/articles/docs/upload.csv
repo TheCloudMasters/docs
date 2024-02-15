@@ -66,8 +66,13 @@ deploy-to-site,,1-getting-started/deploy-to-site/image1.png
 deploy-to-site,,1-getting-started/deploy-to-site/image2.png
 deploy-to-site,,1-getting-started/deploy-to-site/image3.png
 home,uesio/cms.content,1-getting-started/home.md
+wires,uesio/cms.content,2-core-concepts/wires/wires.md
+wires,,2-core-concepts/wires/image4.png
+wires,,2-core-concepts/wires/image5.png
+wires,,2-core-concepts/wires/image1.png
+wires,,2-core-concepts/wires/image2.png
+wires,,2-core-concepts/wires/image3.png
 generators,uesio/cms.content,2-core-concepts/generators.md
-wires,uesio/cms.content,2-core-concepts/wires.md
 bundle-store,uesio/cms.content,2-core-concepts/bundle-store.md
 signals,uesio/cms.content,2-core-concepts/signals/signals.md
 declarative-app-development,uesio/cms.content,2-core-concepts/declarative-app-development/declarative-app-development.md
