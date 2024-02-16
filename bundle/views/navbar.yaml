@@ -44,7 +44,7 @@ definition:
                     path: bundles
                 - uesio/docs.navitem:
                     title: The Bundle Store
-                    path: store
+                    path: bundle-store
                 - uesio/docs.navitem:
                     title: Wires
                     path: wires
