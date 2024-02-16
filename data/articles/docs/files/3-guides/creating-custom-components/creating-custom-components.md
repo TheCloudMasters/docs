@@ -28,7 +28,7 @@ One of the places we use components is in the Studio View Builder. If you want t
 -   Now we will set up our GitHub repository by entering ‘git init’.
 -   Head over to your GitHub desktop app and add a repository and select the directory we just created, ours being ‘tilemoji’.
 -   You will then see a list of files in GitHub that are the metadata for your app. Go ahead and commit the files.
--   Head back to the command line and enter the following ‘uesio generate component pack’ and for Component Pack enter ‘main’ and for Component Name enter ‘colorbox’.
+-   Head back to the command line and enter the following ‘uesio generate componentpack’ and for Component Pack enter ‘main’ and for Component Name enter ‘colorbox’.
 -   Head back over to GitHub desktop and you will see the metadata we just added. Go ahead and commit that to your main branch.
 -   Open the command line and you should be in your directory you created earlier, ours being ‘tilemoji’, and now we will push it to your workspace.
 -   Enter ‘uesio pack’ and uesio will package all the metadata for the component pack and the component and then enter 'uesio deploy' to deploy the new componet pack to your workspace.
