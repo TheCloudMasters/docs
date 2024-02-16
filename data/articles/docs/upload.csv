@@ -73,9 +73,12 @@ wires,,2-core-concepts/wires/image1.png
 wires,,2-core-concepts/wires/image2.png
 wires,,2-core-concepts/wires/image3.png
 generators,uesio/cms.content,2-core-concepts/generators.md
-bundle-store,uesio/cms.content,2-core-concepts/bundle-store.md
 signals,uesio/cms.content,2-core-concepts/signals/signals.md
 declarative-app-development,uesio/cms.content,2-core-concepts/declarative-app-development/declarative-app-development.md
+bundle-store,uesio/cms.content,2-core-concepts/bundle-store/bundle-store.md
+bundle-store,,2-core-concepts/bundle-store/image1.png
+bundle-store,,2-core-concepts/bundle-store/image2.png
+bundle-store,,2-core-concepts/bundle-store/image3.png
 workspaces,uesio/cms.content,2-core-concepts/workspaces/workspaces.md
 workspaces,,2-core-concepts/workspaces/image4.png
 workspaces,,2-core-concepts/workspaces/image5.png
