@@ -9,7 +9,7 @@ The bundles could be complete working applications or any parts that make up a c
 ![Bundle Store](./image2.png "the bundle store")
 
 1. Managed Packages
-2. Publish an Application for the Bundle Store
+2. Publish a Bundle Store Application
 3. Security
 4. Public vs. Private Bundle Stores
 5. Publish a Self-Signup Application
@@ -24,7 +24,7 @@ The bundles could be complete working applications or any parts that make up a c
 -   ISVs can control access to their managed packages through licensing and permissions. They can define different types of licenses (e.g., user-based, feature-based) and set permissions to restrict access to certain features or functionality based on the customer's subscription level.
 -   Managed packages support upgrades and patching mechanisms. ISVs can release updates to their packages to introduce new features, bug fixes, or security patches. Customers can then choose to upgrade to the latest version of the package to benefit from these enhancements.
 
-## 2. Publish an Application for the Bundle Store
+## 2. Publish a Bundle Store Application
 
 -   When you have built and packaged your application bundle you can publish it to the Bundle Store for others to install into their Workspaces and use. You can set a charge for your App Bundle that will be charged to the user when they connect your App Bundle to their Site for usage. The author of the Bundle will not be charged for your usage but will only receive the prescribed amount for the Bundle that they set when you installed the Bundle as an author credit. Follow these steps to publish your Bundle to the Bundle Store.
 -   By now you have built something in your Workspace and packaged a new version of your work.
