@@ -39,7 +39,7 @@ Let's get started!
 
 ## 4. Package your application
 
--   Click on the ‘Packaging’ breadcrumb and ‘Package a New Version’ button.
+-   Click on the ‘Packaging’ tile and ‘Package a New Version’ button.
 
 ![Package](./image11.png "Package")
 
@@ -51,7 +51,7 @@ Let's get started!
 
 ## 5. Create a Site and deploy your application
 
--   Select the ‘+’ icon next to the ‘SITES’ breadcrumb and create a Site.
+-   Select the ‘+’ icon next to the ‘SITES’ tile and create a Site.
 
 ![Create a Site](./image7.png "Create a Site")
 
@@ -69,7 +69,7 @@ Create a Domain & Subdomain
 
 ## 6. Add data to your live collection
 
--   Click on the ‘Collections’ breadcrumb and then select ‘Details’ next to the ‘animals’ collection we created.
+-   Click on the ‘Collections’ tile and then select ‘Details’ next to the ‘animals’ collection we created.
 
 ![Add data](./image3.png "Add data")
 
@@ -79,6 +79,6 @@ Create a Domain & Subdomain
 
 ![Create a SubDomain](./image10.png "Create a SubDomain")
 
--   After we have added some data we can return to the ‘Domains’ breadcrumb and click on the Site we created and you will now see your app live.
+-   After we have added some data we can return to the ‘Domains’ tile and click on the Site we created and you will now see your app live.
 
 ![Live](./image9.png "Live")
