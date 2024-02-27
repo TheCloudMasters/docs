@@ -1,6 +1,6 @@
 .uesio
 node_modules/
 bundle/componentpacks/*/dist/
-
+.DS_Store
 # Docs - generated files
 data/articles/docs/upload.csv
