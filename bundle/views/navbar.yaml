@@ -72,6 +72,9 @@ definition:
                 - uesio/docs.navitem:
                     title: Self-hosting with ues.io server
                     path: self-hosting-uesio
+                - uesio/docs.navitem:
+                    title: Data Connectors
+                    path: data-connectors
           - uesio/docs.navsection:
               title: Metadata Types
               items:
