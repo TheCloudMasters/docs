@@ -1,10 +1,10 @@
 uesio/core.recordid,uesio/core.fieldid,uesio/core.path
 data-connectors,uesio/cms.content,3-guides/data-connectors/data-connectors.md
 self-hosting-uesio,uesio/cms.content,3-guides/self-hosting-uesio.md
-data-connectors,uesio/cms.content,3-guides/data-connectors/data-connectors.md
 creating-custom-components,uesio/cms.content,3-guides/creating-custom-components/creating-custom-components.md
 using-the-cli,uesio/cms.content,3-guides/using-the-cli.md
 bots,uesio/cms.content,4-metadata-types/bots/bots.md
+secrets-and-config-values,uesio/cms.content,4-metadata-types/secrets-and-config-values/secrets-and-config-values.md
 labels-and-translations,uesio/cms.content,4-metadata-types/labels-and-translations/labels-and-translations.md
 labels-and-translations,,4-metadata-types/labels-and-translations/image4.png
 labels-and-translations,,4-metadata-types/labels-and-translations/image1.png
@@ -12,7 +12,6 @@ labels-and-translations,,4-metadata-types/labels-and-translations/image2.png
 labels-and-translations,,4-metadata-types/labels-and-translations/image3.png
 components,uesio/cms.content,4-metadata-types/components/components.md
 components,,4-metadata-types/components/image1.png
-secrets-and-config-values,uesio/cms.content,4-metadata-types/secrets-and-config-values.md
 files,uesio/cms.content,4-metadata-types/files/files.md
 files,,4-metadata-types/files/image1.png
 files,,4-metadata-types/files/image2.png
