@@ -1,7 +1,6 @@
 uesio/core.recordid,uesio/core.fieldid,uesio/core.path
 data-connectors,uesio/cms.content,3-guides/data-connectors/data-connectors.md
-self-hosting-uesio,uesio/cms.content,3-guides/self-hosting-uesio.md
-data-connectors,uesio/cms.content,3-guides/data-connectors/data-connectors.md
+self-hosting-uesio,uesio/cms.content,3-guides/self-hosting-uesio/self-hosting-uesio.md
 creating-custom-components,uesio/cms.content,3-guides/creating-custom-components/creating-custom-components.md
 using-the-cli,uesio/cms.content,3-guides/using-the-cli.md
 bots,uesio/cms.content,4-metadata-types/bots/bots.md
