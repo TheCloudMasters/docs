@@ -1,22 +1,27 @@
-##AWS Bedrock  
+## AWS Bedrock
+
 This is a service provided by Amazon Web Services (AWS) that allows users to access and leverage various large language models (LLMs) and other foundation models (FMs). Essentially, it's a platform that provides pre-built AI models ready for use.
 
-##Claude  
+## Claude
+
 This is a specific LLM created by Anthropic, an AI safety and research company. Claude is known for being a state-of-the-art model, meaning it delivers high accuracy, performance, speed, and cost-efficiency. Businesses can use Claude through AWS Bedrock to add functionalities like text generation, question answering, and conversation creation to their applications.
 
 ![AI Integration](./image1.png "Ai Integrationp")
-#AI Claude
 
-##How to  
-###1. Install the Claude Bundle
-###2. Set up Claude in a [View](views)
+# AI Claude
 
-###1. Install the Claude Bundle
+## How to
+
+### 1. Install the Claude Bundle
+
+### 2. Set up Claude in a [View](views)
+
+### 1. Install the Claude Bundle
 
 -   Once you have created an app and a [Workspace](workspaces) select the ‘Installed Bundles’ tile on the left and then select the ‘BROWSE BUNDLE STORE’ button.
 -   Look for the Claude Integration Bundle and install it.
 
-###2. Set up Claude in a [View](views)
+### 2. Set up Claude in a [View](views)
 
 -   Next click on the [Views](views) tile and create a view
 -   Select the [Wires](wires) panel and create a new view-only wire and name it inputs.
