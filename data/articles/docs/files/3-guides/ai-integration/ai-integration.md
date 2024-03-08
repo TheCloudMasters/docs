@@ -34,12 +34,12 @@ This is a specific LLM created by Anthropic, an AI safety and research company. 
 -   Integration = ‘Bedrock’
 -   Action Name = ‘Invoke Model’
 -   Parameters - Model = ‘anthropic.claude-v2’
--   Input = ‘${inputs:input}’
+-   Input = ‘$ {inputs:input}’ PS - remove the space after the '$'
 -   Add a second Signal cand set the following parameters:
 -   Signal = ‘Update Fields’
 -   Wire = ‘inputs’
 -   Field = ‘output’
--   Value = ‘$SignalOutput{[ask][data]}’
+-   Value = ‘$ SignalOutput{[ask][data]}’ PS - remove the space after the '$'
 -   Select the a Field component and place it in the canvas area and set the following parameters:
 -   Wire = ‘inputs’
 -   Field Id = ‘output’
