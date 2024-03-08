@@ -1,4 +1,4 @@
-
+/bundle/routes/article.yaml
 /bundle/componentpacks/*/dist
 package-lock.json
 package.json
