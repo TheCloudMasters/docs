@@ -75,6 +75,9 @@ definition:
                 - uesio/docs.navitem:
                     title: Data Connectors
                     path: data-connectors
+                - uesio/docs.navitem:
+                    title: AI Integration
+                    path: ai-integration
           - uesio/docs.navsection:
               title: Metadata Types
               items:

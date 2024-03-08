@@ -1,7 +1,8 @@
 uesio/core.recordid,uesio/core.fieldid,uesio/core.path
 data-connectors,uesio/cms.content,3-guides/data-connectors/data-connectors.md
 self-hosting-uesio,uesio/cms.content,3-guides/self-hosting-uesio.md
-data-connectors,uesio/cms.content,3-guides/data-connectors/data-connectors.md
+ai-integration,uesio/cms.content,3-guides/ai-integration/ai-integration.md
+ai-integration,,3-guides/ai-integration/image1.png
 creating-custom-components,uesio/cms.content,3-guides/creating-custom-components/creating-custom-components.md
 using-the-cli,uesio/cms.content,3-guides/using-the-cli.md
 bots,uesio/cms.content,4-metadata-types/bots/bots.md
@@ -85,6 +86,7 @@ wires,,2-core-concepts/wires/image3.png
 generators,uesio/cms.content,2-core-concepts/generators.md
 signals,uesio/cms.content,2-core-concepts/signals/signals.md
 declarative-app-development,uesio/cms.content,2-core-concepts/declarative-app-development/declarative-app-development.md
+uesio-runtime,uesio/cms.content,2-core-concepts/uesio-runtime/uesio-runtime.md
 bundle-store,uesio/cms.content,2-core-concepts/bundle-store/bundle-store.md
 bundle-store,,2-core-concepts/bundle-store/image1.png
 bundle-store,,2-core-concepts/bundle-store/image2.png
@@ -95,10 +97,9 @@ workspaces,,2-core-concepts/workspaces/image5.png
 workspaces,,2-core-concepts/workspaces/image1.png
 workspaces,,2-core-concepts/workspaces/image2.png
 workspaces,,2-core-concepts/workspaces/image3.png
+uesio-security-model,uesio/cms.content,2-core-concepts/uesio-security-model/uesio-security-model.md
 teams,,2-core-concepts/teams/image1.png
 teams,uesio/cms.content,2-core-concepts/teams/teams.md
 teams,,2-core-concepts/teams/image2.png
 deployment-and-bundles,uesio/cms.content,2-core-concepts/deployment-and-bundles.md
-uesio-runtime,uesio/cms.content,2-core-concepts/uesio-runtime.md
-uesio-security-model,uesio/cms.content,2-core-concepts/uesio-security-model.md
 multi-tenant-apps,uesio/cms.content,2-core-concepts/multi-tenant-apps/multi-tenant-apps.md

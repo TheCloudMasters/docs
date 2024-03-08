@@ -26,4 +26,5 @@ secrets-and-config-values,Secrets and config values,"Define dynamic application 
 views,Views,"Create user interfaces with views"
 workspaces,Workspaces,"Develop and make changes to your apps with workspaces"
 teams,Teams,"Work together on apps with teams"
-data-connectors,Data Conectores,"Conect to external data"
+data-connectors,Data Connectors,"Conect to external data"
+ai-integration,AI Integration,"Connect to AI models"
