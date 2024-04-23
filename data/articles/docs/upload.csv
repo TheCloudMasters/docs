@@ -1,10 +1,10 @@
 uesio/core.recordid,uesio/core.fieldid,uesio/core.path
 data-connectors,uesio/cms.content,3-guides/data-connectors/data-connectors.md
-self-hosting-uesio,uesio/cms.content,3-guides/self-hosting-uesio.md
+self-hosting-uesio,uesio/cms.content,3-guides/self-hosting-uesio/self-hosting-uesio.md
 ai-integration,uesio/cms.content,3-guides/ai-integration/ai-integration.md
 ai-integration,,3-guides/ai-integration/image1.png
 creating-custom-components,uesio/cms.content,3-guides/creating-custom-components/creating-custom-components.md
-using-the-cli,uesio/cms.content,3-guides/using-the-cli.md
+using-the-cli,uesio/cms.content,3-guides/using-the-cli/using-the-cli.md
 bots,uesio/cms.content,4-metadata-types/bots/bots.md
 labels-and-translations,uesio/cms.content,4-metadata-types/labels-and-translations/labels-and-translations.md
 labels-and-translations,,4-metadata-types/labels-and-translations/image4.png
@@ -13,7 +13,6 @@ labels-and-translations,,4-metadata-types/labels-and-translations/image2.png
 labels-and-translations,,4-metadata-types/labels-and-translations/image3.png
 components,uesio/cms.content,4-metadata-types/components/components.md
 components,,4-metadata-types/components/image1.png
-secrets-and-config-values,uesio/cms.content,4-metadata-types/secrets-and-config-values.md
 files,uesio/cms.content,4-metadata-types/files/files.md
 files,,4-metadata-types/files/image1.png
 files,,4-metadata-types/files/image2.png
@@ -47,6 +46,7 @@ views,,4-metadata-types/views/image3.png
 routes,uesio/cms.content,4-metadata-types/routes/routes.md
 routes,,4-metadata-types/routes/image1.png
 routes,,4-metadata-types/routes/image2.png
+secrets-and-config-values,uesio/cms.content,4-metadata-types/secret-and-config-values/secrets-and-config-values.md
 profiles-and-permission-sets,uesio/cms.content,4-metadata-types/profiles-and-permission-sets/profiles-and-permission-sets.md
 profiles-and-permission-sets,,4-metadata-types/profiles-and-permission-sets/image1.png
 profiles-and-permission-sets,,4-metadata-types/profiles-and-permission-sets/image2.png
@@ -83,7 +83,6 @@ wires,,2-core-concepts/wires/image5.png
 wires,,2-core-concepts/wires/image1.png
 wires,,2-core-concepts/wires/image2.png
 wires,,2-core-concepts/wires/image3.png
-generators,uesio/cms.content,2-core-concepts/generators.md
 signals,uesio/cms.content,2-core-concepts/signals/signals.md
 declarative-app-development,uesio/cms.content,2-core-concepts/declarative-app-development/declarative-app-development.md
 uesio-runtime,uesio/cms.content,2-core-concepts/uesio-runtime/uesio-runtime.md
@@ -101,5 +100,7 @@ uesio-security-model,uesio/cms.content,2-core-concepts/uesio-security-model/uesi
 teams,,2-core-concepts/teams/image1.png
 teams,uesio/cms.content,2-core-concepts/teams/teams.md
 teams,,2-core-concepts/teams/image2.png
-deployment-and-bundles,uesio/cms.content,2-core-concepts/deployment-and-bundles.md
+generators,uesio/cms.content,2-core-concepts/generators/generators.md
+deployment-and-bundles,uesio/cms.content,2-core-concepts/deployment-and-bundles/deployment-and-bundles.md
 multi-tenant-apps,uesio/cms.content,2-core-concepts/multi-tenant-apps/multi-tenant-apps.md
+layout-components,uesio/cms.content,5-built-in-components/layout-components.md
