@@ -40,7 +40,7 @@ This is a specific LLM created by Anthropic, an AI safety and research company. 
 -   Action Name = ‘Invoke Model’
 -   Parameters - Model = ‘anthropic.claude-v2’
 -   Input = ‘$ {inputs:input}’ PS - remove the space after the '$'
--   Add a second Signal cand set the following parameters:
+-   Add a second Signal and set the following parameters:
 -   Signal = ‘Update Fields’
 -   Wire = ‘inputs’
 -   Field = ‘output’
