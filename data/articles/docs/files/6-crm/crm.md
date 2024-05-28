@@ -11,14 +11,23 @@ We want to showcase the development capabilities of ues.io and decided to build 
 ### What is included?
 
 **Leads** - Lead management is the process of nurturing potential customers from initial interest to closed deals. You can also build out a contact form on your website as an additional lead generation source and create a new record automatically in the leads database when someone completes the form.
+
 **Accounts** - Account management focuses on building and maintaining strong relationships with existing clients to maximize their value and drive repeat business.
+
 **Contacts** - Contacts management organizes and keeps track of all the people you interact with within your Accounts, ensuring you have the right information to connect effectively.
+
 **Opportunities** - Opportunity management involves tracking and nurturing potential sales deals throughout the sales cycle, from start to closing the deal.
+
 **Tasks** - Task management keeps your sales team on track by assigning, prioritizing, and monitoring the actions needed to close deals.
+
 **Events** - Event management within CRM ensures all meetings, calls, and other interactions related to sales opportunities are scheduled, tracked, and accessible to the team.
+
 **Activities** - Keep a paper trail of all activities related to your data represented in a timeline tab across all modules. Users can make their personalized comments for others to see and act upon.
+
 **Home Tab** - This is an overview of upcoming opportunities, leads generated for the week in graphical format and a list of your new leads, tasks and events.
+
 **Settings** - In this section of the CRM app you can trigger default settings for your picklist values for Lead Sources, Account Types, Contact Roles, Opportunity Stages as well as generate sample data to get you going.
+
 **Anthropic AI** - We included a version of Claude 3 Sonnet in the Lead Detail view to demonstrate how you can make use of AI to quickly gather information on your new lead.
 
 ### How to upgrade to unlimited users?
@@ -28,6 +37,7 @@ We want to showcase the development capabilities of ues.io and decided to build 
 ### Open-Source
 
 **Repository** - You can visit our [Git Repo](https://github.com/ues-io/crm) if you would like to make changes or additions to the app to be considered for inclusion in one of our sprints as part of our collaborative community members.
+
 **More Features** - As we move forward with further iterations we will be including additional features and integrations to improve your experience and functionality by popular demand and community member contributions.
 
 ### Get Started Now
