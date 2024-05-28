@@ -114,3 +114,9 @@ definition:
                 - uesio/docs.navitem:
                     title: Layout Components
                     path: components
+          - uesio/docs.navsection:
+              title: CRM
+              items:
+                - uesio/docs.navitem:
+                    title: CRM Introduction
+                    path: crm
