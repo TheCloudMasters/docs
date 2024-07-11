@@ -37,6 +37,8 @@ For those familiar with Git, a workspace is similar to a Git branch. You could j
 
 To start out though, you really just need a single workspace, so let's go ahead and create one now.
 
+![New workspace](./newWorkspace.png "new workspace dialog")
+
 Click the + button in the top left to create a workspace. Try "dev" as the name.
 
 ## Collections, views, and routes
@@ -84,7 +86,7 @@ To help with building and testing apps, workspaces can have their own collection
 
 We can manage the data in a workspace collection using the "Manage Data" button, "Import Data" from a CSV file, or even "Export Data" to a CSV. Any data / metadata you put into ues.io, you can get out!
 
-To quickly data to a collection, though, we can use "Generate sample data", which will use some AI magic to create data matching our collection fields specification.
+To quickly add data to a collection, though, we can use "Generate sample data", which will use some AI magic to create data matching our collection fields specification.
 
 ![Generate sample data](./generatesampledata.png "generate sample data")
 
@@ -140,6 +142,19 @@ Great! Now, click **Preview**
 🎉 Hurray! We've got ourselves a working app. We can create, edit, delete, and save the records in our animals collection.
 
 ![route preview](./routepreview.png "route preview")
+
+## Using Admin Views GenBot
+We have added a new GenBot called Generate Admin Views which will create a complete set of admin views and routes based on your newly created collection. This option can be selected in the [collections](collections) section.  
+
+![gen admin views](./adminViews.png "gen admin views")
+
+When you select the Generate Admin Views tile you will be presented with a popup allowing you to select the animals collection as the source for the views.
+
+![gen admin views](./setgen.png "gen admin views")
+
+Select the [views](views) tile and you will see all the generated views and the same with [routes](routes).
+
+![gened admin views](./genedViews.png "gened admin views")
 
 ## Conclusion
 
