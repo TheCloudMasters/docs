@@ -14,8 +14,7 @@ definition:
         - uesio/io.text:
             uesio.variant: uesio/docs.navheader
             text: $Prop{title}
-        - uesio/core.slot:
-            name: items
+        - $Slot{items}
 title: Nav section
 discoverable: true
 description: A section within the docs nav sidebar
