@@ -38,13 +38,13 @@ This is a specific LLM created by Anthropic, an AI safety and research company. 
 -   Integration Type = ‘AWS Bedrock’
 -   Integration = ‘Bedrock’
 -   Action Name = ‘Invoke Model’
--   Parameters - Model = ‘anthropic.claude-v2’
+-   Parameters - Model = ‘anthropic.claude-3-haiku-20240307-v1:0’
 -   Input = ‘$ {inputs:input}’ PS - remove the space after the '$'
 -   Add a second Signal and set the following parameters:
 -   Signal = ‘Update Fields’
 -   Wire = ‘inputs’
 -   Field = ‘output’
--   Value = ‘$ SignalOutput{[ask][data]}’ PS - remove the space after the '$'
+-   Value = ‘$ SignalOutput{[ask][0.text]}’ PS - remove the space after the '$'
 -   Select the a Field component and place it in the canvas area and set the following parameters:
 -   Wire = ‘inputs’
 -   Field Id = ‘output’
