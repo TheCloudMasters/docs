@@ -9,11 +9,9 @@ properties:
     name: path
     label: Path to the associated docs article
 definition:
-  - uesio/io.tile:
-      uesio.variant: uesio/docs.navitem
-      content:
-        - uesio/io.text:
-            text: $Prop{title}
+  - uesio/appkit.icontile:
+      tileVariant: uesio/docs.navitem
+      title: $Prop{title}
       signals:
         - signal: route/NAVIGATE
           path: $Prop{path}

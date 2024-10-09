@@ -31,4 +31,5 @@ definition:
     a:
       - text-blue-600
     img:
-      - max-w-2xl
+      - md:max-w-2xl
+      - max-w-full

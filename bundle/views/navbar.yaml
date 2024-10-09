@@ -3,12 +3,33 @@ definition:
   # Wires are how we pull in data
   wires: # Components are how we describe the layout of our view
   components:
-    - uesio/io.box:
-        uesio.styleTokens:
-          root:
-            - p-6
-            - bg-gray-100
-        components:
+    - uesio/appkit.sidebar:
+        uesio.variant: uesio/docs.main
+        trigger:
+          - uesio/sitekit.section:
+              content:
+                - uesio/io.group:
+                    components:
+                      - uesio/io.button:
+                          uesio.styleTokens:
+                            root:
+                              - text-xl
+                              - px-[5px]
+                              - py-1
+                          icon: menu
+                          signals:
+                            - signal: component/CALL
+                              component: uesio/io.dynamicpanel
+                              componentsignal: TOGGLE
+                              targettype: specific
+                              componentid: menutoggle
+                      - uesio/io.group:
+                          uesio.variant: uesio/appkit.breadcrumbs
+                          components:
+                            - uesio/appkit.icontile:
+                                tileVariant: uesio/appkit.breadcrumb
+                                title: $Param{title}
+        content:
           - uesio/docs.navsection:
               title: Getting Started
               items:

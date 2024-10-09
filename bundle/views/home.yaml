@@ -27,30 +27,23 @@ definition:
           lookupField: uesio/core.id
   components:
     - uesio/io.viewlayout:
+        uesio.variant: uesio/docs.default
         header:
           - uesio/core.view:
               view: uesio/docs.topbar
         left:
           - uesio/core.view:
               view: uesio/docs.navbar
+              params:
+                title: ${article:name}
         content:
-          - uesio/io.box:
-              uesio.styleTokens:
-                root:
-                  - min-h-screen
-                  - p-6
-                  - ml-24
-                  - lg:mr-60
-                  - mr-10
-                  - mb-60
+          - uesio/io.list:
+              wire: article
               components:
-                - uesio/io.list:
-                    wire: article
-                    components:
-                      - uesio/io.field:
-                          uesio.variant: uesio/io.markdownfield:uesio/docs.docsmarkdown
-                          fieldId: uesio/cms.content
-                          labelPosition: none
-                          displayAs: MARKDOWN
-                          markdown:
-                            attachmentsWire: attachments
+                - uesio/io.field:
+                    uesio.variant: uesio/io.markdownfield:uesio/docs.docsmarkdown
+                    fieldId: uesio/cms.content
+                    labelPosition: none
+                    displayAs: MARKDOWN
+                    markdown:
+                      attachmentsWire: attachments

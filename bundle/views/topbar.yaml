@@ -4,38 +4,80 @@ definition:
   wires:
   # Components are how we describe the layout of our view
   components:
-    - uesio/io.viewheader:
+    - uesio/sitekit.header:
+        uesio.styleTokens:
+          root:
+            - bg-white/90
+            - backdrop-blur
+          menubutton:
+            - text-2xl
+            - text-slate-800
+        menuicon: more_vert
+        menuSignals:
+          - signal: panel/TOGGLE
+            panel: navmenu
         logo:
+          - uesio/io.image:
+              file: uesio/core.logo
+              height: 38
+              signals:
+                - signal: "route/NAVIGATE"
+                  path: "home"
+        right:
           - uesio/io.group:
               components:
-                - uesio/io.image:
-                    file: uesio/docs.logo
-                    height: 34
+                - uesio/io.button:
+                    uesio.variant: uesio/sitekit.secondary_dark
+                    text: Community
+                    signals:
+                      - signal: route/REDIRECT
+                        path: https://github.com/ues-io/uesio/discussions
+                - uesio/io.button:
+                    uesio.variant: uesio/sitekit.secondary_dark
+                    text: Blog
+                    signals:
+                      - signal: route/REDIRECT
+                        path: "https://$Site{domain}/blog"
+          - uesio/io.group:
+              components:
+                - uesio/io.button:
+                    uesio.variant: uesio/sitekit.primary_dark
+                    text: Login
                     signals:
                       - signal: "route/REDIRECT"
-                        path: "https://$Site{domain}"
-                - uesio/io.button:
-                    text: Documentation
-                    uesio.variant: uesio/io.nav
-                    signals:
-                      - signal: route/NAVIGATE
-                        path: home
-        right:
-          - uesio/io.button:
-              uesio.variant: uesio/docs.borderless
-              text: Community
-              signals:
-                - signal: route/REDIRECT
-                  path: https://community.ues.io
-          - uesio/io.button:
-              uesio.variant: uesio/docs.borderless
-              text: Blog
-              signals:
-                - signal: route/REDIRECT
-                  path: "https://$Site{domain}/blog"
-          - uesio/io.button:
-              uesio.variant: uesio/docs.calltoaction
-              text: Login
-              signals:
-                - signal: "route/REDIRECT"
-                  path: "https://studio.$Site{domain}"
+                        path: "https://studio.$Site{domain}"
+  panels:
+    navmenu:
+      uesio.type: uesio/io.sidepanel
+      uesio.styleTokens:
+        blocker:
+          - z-20
+        icon:
+          - text-3xl
+          - text-slate-800
+          - p-6
+      components:
+        - uesio/io.group:
+            uesio.styleTokens:
+              root:
+                - grid-flow-row
+                - justify-center
+            components:
+              - uesio/io.button:
+                  uesio.variant: uesio/sitekit.secondary_dark
+                  text: Community
+                  signals:
+                    - signal: route/REDIRECT
+                      path: https://github.com/ues-io/uesio/discussions
+              - uesio/io.button:
+                  uesio.variant: uesio/sitekit.secondary_dark
+                  text: Blog
+                  signals:
+                    - signal: route/REDIRECT
+                      path: "https://$Site{domain}/blog"
+              - uesio/io.button:
+                  uesio.variant: uesio/sitekit.primary_dark
+                  text: Login
+                  signals:
+                    - signal: "route/REDIRECT"
+                      path: "https://studio.$Site{domain}"

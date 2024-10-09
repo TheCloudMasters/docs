@@ -4,7 +4,6 @@ path: home
 view: home
 params:
   slug: home
-theme: default
 title: $Site{title} - Documentation
 tags:
   - type: meta

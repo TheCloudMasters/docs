@@ -1,7 +1,7 @@
-name: navitem
-label: Nav Item
+name: navheader
+label: Nav Header
 extends: uesio/io.nav
 definition:
   uesio.styleTokens:
     root:
-      - px-2.5
+public: true

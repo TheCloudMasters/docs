@@ -8,12 +8,13 @@ properties:
     name: title
     label: The title for the section
 definition:
-  - uesio/io.box:
-      uesio.variant: uesio/docs.navsection
-      components:
-        - uesio/io.text:
-            uesio.variant: uesio/docs.navheader
-            text: $Prop{title}
+  - uesio/io.navsection:
+      uesio.styleTokens:
+        root:
+          - mb-6
+      title: $Prop{title}
+      titlebarVariant: uesio/docs.navheader
+      content:
         - $Slot{items}
 title: Nav section
 discoverable: true

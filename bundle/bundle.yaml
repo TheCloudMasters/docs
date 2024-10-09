@@ -1,10 +1,12 @@
 name: uesio/docs
 loginRoute: uesio/docs.login
 homeRoute: uesio/docs.home
-defaultTheme: uesio/docs.default
+defaultTheme: uesio/core.default
 publicProfile: uesio/docs.public
 dependencies:
-  uesio/builder:
+  uesio/sitekit:
+    version: v0.0.1
+  uesio/appkit:
     version: v0.0.1
   uesio/cms:
     version: v0.1.0
