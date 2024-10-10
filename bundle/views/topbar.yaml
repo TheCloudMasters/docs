@@ -12,10 +12,12 @@ definition:
           menubutton:
             - text-2xl
             - text-slate-800
+          menupanelblocker:
+            - z-20
+          menupanelicon:
+            - text-3xl
+            - p-5
         menuicon: more_vert
-        menuSignals:
-          - signal: panel/TOGGLE
-            panel: navmenu
         logo:
           - uesio/io.image:
               file: uesio/core.logo
@@ -46,38 +48,28 @@ definition:
                     signals:
                       - signal: "route/REDIRECT"
                         path: "https://studio.$Site{domain}"
-  panels:
-    navmenu:
-      uesio.type: uesio/io.sidepanel
-      uesio.styleTokens:
-        blocker:
-          - z-20
-        icon:
-          - text-3xl
-          - text-slate-800
-          - p-6
-      components:
-        - uesio/io.group:
-            uesio.styleTokens:
-              root:
-                - grid-flow-row
-                - justify-center
-            components:
-              - uesio/io.button:
-                  uesio.variant: uesio/sitekit.secondary_dark
-                  text: Community
-                  signals:
-                    - signal: route/REDIRECT
-                      path: https://github.com/ues-io/uesio/discussions
-              - uesio/io.button:
-                  uesio.variant: uesio/sitekit.secondary_dark
-                  text: Blog
-                  signals:
-                    - signal: route/REDIRECT
-                      path: "https://$Site{domain}/blog"
-              - uesio/io.button:
-                  uesio.variant: uesio/sitekit.primary_dark
-                  text: Login
-                  signals:
-                    - signal: "route/REDIRECT"
-                      path: "https://studio.$Site{domain}"
+        menu:
+          - uesio/io.group:
+              uesio.styleTokens:
+                root:
+                  - grid-flow-row
+                  - justify-center
+              components:
+                - uesio/io.button:
+                    uesio.variant: uesio/sitekit.secondary_dark
+                    text: Community
+                    signals:
+                      - signal: route/REDIRECT
+                        path: https://github.com/ues-io/uesio/discussions
+                - uesio/io.button:
+                    uesio.variant: uesio/sitekit.secondary_dark
+                    text: Blog
+                    signals:
+                      - signal: route/REDIRECT
+                        path: "https://$Site{domain}/blog"
+                - uesio/io.button:
+                    uesio.variant: uesio/sitekit.primary_dark
+                    text: Login
+                    signals:
+                      - signal: "route/REDIRECT"
+                        path: "https://studio.$Site{domain}"
