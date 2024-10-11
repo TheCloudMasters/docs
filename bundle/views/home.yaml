@@ -26,20 +26,28 @@ definition:
           lookupWire: article
           lookupField: uesio/core.id
   components:
-    - uesio/io.viewlayout:
-        uesio.variant: uesio/docs.default
-        header:
-          - uesio/core.view:
-              view: uesio/docs.topbar
-        left:
-          - uesio/core.view:
-              view: uesio/docs.navbar
-              params:
-                title: ${article:name}
-        content:
-          - uesio/io.list:
-              wire: article
-              components:
+    - uesio/io.item:
+        wire: article
+        components:
+          - uesio/io.viewlayout:
+              uesio.variant: uesio/docs.default
+              header:
+                - uesio/core.view:
+                    view: uesio/docs.topbar
+              left:
+                - uesio/core.view:
+                    view: uesio/docs.navbar
+                    params:
+                      title: ${article:name}
+                      selected: ${article:slug}
+              right:
+                - uesio/docs.navsection:
+                    title: Table of Contents
+                    items:
+                      - uesio/io.markdownnavigation:
+                          uesio.variant: uesio/io.tile:uesio/docs.navitem
+                          fieldId: uesio/cms.content
+              content:
                 - uesio/io.field:
                     uesio.variant: uesio/io.markdownfield:uesio/docs.docsmarkdown
                     fieldId: uesio/cms.content

@@ -36,108 +36,139 @@ definition:
                 - uesio/docs.navitem:
                     title: Introduction
                     path: home
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Create a ues.io account
                     path: create-account
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Create your first app
                     path: first-app
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Deploy your app to a site
                     path: deploy-to-site
+                    selectedid: $Param{selected}
           - uesio/docs.navsection:
               title: Core Concepts
               items:
                 - uesio/docs.navitem:
                     title: Declarative App Development
                     path: declarative-app-development
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Multi-tenant Apps
                     path: multi-tenant-apps
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: The ues.io Runtime
                     path: runtime
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: The ues.io Security Model
                     path: model
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Deployment and App Bundles
                     path: bundles
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: The Bundle Store
                     path: bundle-store
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Wires
                     path: wires
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Signals
                     path: signals
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Generators
                     path: generators
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Workspaces
                     path: workspaces
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Teams
                     path: teams
+                    selectedid: $Param{selected}
           - uesio/docs.navsection:
               title: Guides
               items:
                 - uesio/docs.navitem:
                     title: Using the ues.io CLI
                     path: using-the-cli
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Creating Custom Components
                     path: creating-custom-components
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Self-hosting with ues.io server
                     path: self-hosting-uesio
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Data Connectors
                     path: data-connectors
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: AI Integration
                     path: ai-integration
+                    selectedid: $Param{selected}
           - uesio/docs.navsection:
               title: Metadata Types
               items:
                 - uesio/docs.navitem:
                     title: Collections and Select Lists
                     path: collections
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Files
                     path: files
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Routes
                     path: routes
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Views
                     path: views
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Components
                     path: components
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Labels and Translations
                     path: labels-and-translations
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Secrets and Config Values
                     path: secrets-and-config-values
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Profiles and Permission Sets
                     path: profiles-and-permission-sets
+                    selectedid: $Param{selected}
                 - uesio/docs.navitem:
                     title: Bots
                     path: bots
+                    selectedid: $Param{selected}
           - uesio/docs.navsection:
               title: Built-in Components
               items:
                 - uesio/docs.navitem:
                     title: Layout Components
                     path: components
+                    selectedid: $Param{selected}
           - uesio/docs.navsection:
               title: CRM
               items:
                 - uesio/docs.navitem:
                     title: CRM Introduction
                     path: crm
+                    selectedid: $Param{selected}

@@ -5,10 +5,11 @@ definition:
   scrollpanelVariant: uesio/io.default
   uesio.styleTokens:
     inner:
-      - lg:p-4
-      - lg:pt-4
+      - lg:p-0
+      - lg:pt-0
       - p-6
       - pt-4
+      - "[scrollbar-width:none]"
     triggerInner:
     triggerHeader:
       - hidden

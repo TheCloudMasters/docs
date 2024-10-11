@@ -4,4 +4,9 @@ extends: uesio/io.nav
 definition:
   uesio.styleTokens:
     root:
+      - pt-0
+    title:
+      - p-0
+      - py-1
+      - text-fontcolor-900/80
 public: true
