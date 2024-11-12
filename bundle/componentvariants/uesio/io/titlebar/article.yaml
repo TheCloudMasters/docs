@@ -1,0 +1,13 @@
+name: article
+label: article
+extends: uesio/io.default
+definition:
+  uesio.styleTokens:
+    title:
+      - text-5xl
+      - font-bold
+    subtitle:
+      - text-xl
+      - font-light
+      - text-slate-600
+public: true

@@ -9,7 +9,7 @@ dependencies:
   uesio/appkit:
     version: v0.0.1
   uesio/cms:
-    version: v0.1.0
+    version: v0.1.1
   uesio/core:
     version: v0.0.1
   uesio/io:

@@ -51,6 +51,8 @@ secrets-and-config-values,uesio/cms.content,4-metadata-types/secret-and-config-v
 profiles-and-permission-sets,uesio/cms.content,4-metadata-types/profiles-and-permission-sets/profiles-and-permission-sets.md
 profiles-and-permission-sets,,4-metadata-types/profiles-and-permission-sets/image1.png
 profiles-and-permission-sets,,4-metadata-types/profiles-and-permission-sets/image2.png
+home,uesio/cms.content,1-getting-started/home/home.md
+home,,1-getting-started/home/metadatatypes.png
 first-app,,1-getting-started/first-app/generatedlistview.png
 first-app,,1-getting-started/first-app/suggestfieldsbutton.png
 first-app,,1-getting-started/first-app/aigenerateddata.png
@@ -77,7 +79,6 @@ deploy-to-site,,1-getting-started/deploy-to-site/image5.png
 deploy-to-site,,1-getting-started/deploy-to-site/image1.png
 deploy-to-site,,1-getting-started/deploy-to-site/image2.png
 deploy-to-site,,1-getting-started/deploy-to-site/image3.png
-home,uesio/cms.content,1-getting-started/home.md
 wires,uesio/cms.content,2-core-concepts/wires/wires.md
 wires,,2-core-concepts/wires/image4.png
 wires,,2-core-concepts/wires/image5.png

@@ -1,12 +1,10 @@
-# Introduction
-
-##### Learn to build and deploy apps with ues.io
-
-Welcome to ues.io! This article will explain what ues.io is and why we built it.
+Welcome to ues.io! This article will explain what ues.io is—and why we built it.
 
 ## What is ues.io?
 
 Ues.io is a general purpose, [declarative](declarative-app-development), application development platform for the web. Instead of writing code in a programming language to define the behavior of your apps, most common patterns in ues.io can be accomplished through declarative configuration. We call these individual pieces of configuration **application metadata**. Each piece of application metadata describes a portion of the functionality of your application.
+
+![Metadata types](./metadatatypes.png "metadata types")
 
 At its core, ues.io is a high-level language of patterns for describing web applications. Just like in a spoken language where words and phrases can be combined in unique ways to communicate thoughts and ideas, ues.io's metadata types (or patterns) can be combined in unique ways to describe the complete functionality of an app.
 

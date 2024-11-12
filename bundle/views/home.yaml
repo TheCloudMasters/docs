@@ -48,6 +48,10 @@ definition:
                           uesio.variant: uesio/io.tile:uesio/docs.navitem
                           fieldId: uesio/cms.content
               content:
+                - uesio/io.titlebar:
+                    uesio.variant: uesio/docs.article
+                    title: ${name}
+                    subtitle: ${description}
                 - uesio/io.field:
                     uesio.variant: uesio/io.markdownfield:uesio/docs.docsmarkdown
                     fieldId: uesio/cms.content
