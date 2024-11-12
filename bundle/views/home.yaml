@@ -30,7 +30,7 @@ definition:
         wire: article
         components:
           - uesio/io.viewlayout:
-              uesio.variant: uesio/docs.default
+              uesio.variant: uesio/cms.default
               header:
                 - uesio/core.view:
                     view: uesio/docs.topbar
@@ -41,19 +41,19 @@ definition:
                       title: ${article:name}
                       selected: ${article:slug}
               right:
-                - uesio/docs.navsection:
+                - uesio/cms.navsection:
                     title: Table of Contents
                     items:
                       - uesio/io.markdownnavigation:
-                          uesio.variant: uesio/io.tile:uesio/docs.navitem
+                          uesio.variant: uesio/io.tile:uesio/cms.navitem
                           fieldId: uesio/cms.content
               content:
                 - uesio/io.titlebar:
-                    uesio.variant: uesio/docs.article
+                    uesio.variant: uesio/cms.article
                     title: ${name}
                     subtitle: ${description}
                 - uesio/io.field:
-                    uesio.variant: uesio/io.markdownfield:uesio/docs.docsmarkdown
+                    uesio.variant: uesio/io.markdownfield:uesio/cms.markdown
                     fieldId: uesio/cms.content
                     labelPosition: none
                     displayAs: MARKDOWN
