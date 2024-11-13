@@ -5,26 +5,9 @@ views:
   uesio/docs.navbar: true
   uesio/docs.topbar: true
 collections:
-  uesio/cms.article:
-    read: true
-    create: false
-    edit: false
-    delete: false
-    modifyall: false
-    viewall: true
-    fields: {}
-  uesio/core.userfile:
-    read: true
-    create: false
-    edit: false
-    delete: false
-    modifyall: false
-    viewall: true
-    fields: {}
 routes:
   uesio/docs.article: true
   uesio/docs.home: true
-  uesio/docs.signuplanding: true
 files: {}
 bots: {}
 integrationActions: {}

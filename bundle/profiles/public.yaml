@@ -2,4 +2,5 @@ name: public
 label: Docs Site Public Profile
 permissionSets:
   - uesio/docs.public
+  - uesio/cms.public
   - uesio/core.public
