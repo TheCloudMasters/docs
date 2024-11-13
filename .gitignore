@@ -4,3 +4,5 @@ bundle/componentpacks/*/dist/
 .DS_Store
 # Docs - generated files
 data/articles/docs/upload.csv
+# Authors - generated files
+data/authors/pics/upload.csv

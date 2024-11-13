@@ -9,7 +9,7 @@ definition:
               path: home
               selectedid: ${slug}
           - uesio/cms.navitem:
-              title: Create a ues.io account
+              title: Create an account
               path: create-account
               selectedid: ${slug}
           - uesio/cms.navitem:
@@ -17,7 +17,7 @@ definition:
               path: first-app
               selectedid: ${slug}
           - uesio/cms.navitem:
-              title: Deploy your app to a site
+              title: Deploy your app
               path: deploy-to-site
               selectedid: ${slug}
     - uesio/cms.navsection:
@@ -37,11 +37,11 @@ definition:
               selectedid: ${slug}
           - uesio/cms.navitem:
               title: The ues.io Security Model
-              path: model
+              path: security-model
               selectedid: ${slug}
           - uesio/cms.navitem:
               title: Deployment and App Bundles
-              path: bundles
+              path: deployment-and-bundles
               selectedid: ${slug}
           - uesio/cms.navitem:
               title: The Bundle Store

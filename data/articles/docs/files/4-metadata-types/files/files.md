@@ -1,6 +1,4 @@
-# Files
-
--   Upload files for logos or any graphic items you would like to expose in your App Views you create in your workspace.
+Upload files for logos or any graphic items you would like to expose in your App Views you create in your workspace.
 
 1. Upload a File
 2. Use the File in the UI

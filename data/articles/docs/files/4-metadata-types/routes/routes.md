@@ -1,8 +1,6 @@
-# Routes
+See routes as the path that the user will use to reach the Views you have created. If you create a route path called ‘planets’ and set the view to a view you created called ‘planetlists’ then the user will reach that view at `mysitesubdomain.ues.io/planets`.
 
--   See routes as the path that the user will use to reach the Views you have created. If you create a route path called ‘planets’ and set the view to a view you created called ‘planetlists’ then the user will reach that view at `mysitesubdomain.ues.io/planets`.
-
--   Routes can be created for redirects and bots and configure which Theme to apply to the View you are publishing at the end of the Route Path.
+Routes can be created for redirects and bots and configure which Theme to apply to the View you are publishing at the end of the Route Path.
 
 ![Create a route](./image1.png "Create a new routee")
 

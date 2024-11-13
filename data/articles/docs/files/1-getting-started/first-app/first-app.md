@@ -1,5 +1,3 @@
-# Your first app
-
 Now that you're logged in to ues.io, it's time to create your first app!
 
 First, let's talk about we mean by "app".

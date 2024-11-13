@@ -1,5 +1,3 @@
-# Views
-
 This is where all the action happens. Here you can configure the user interface and the different components within each view as well as the wires that connect your data to the different components.
 
 -   Create different views for your apps. You may want to create a list view to show rows of all data items from a particular data collection source or a form view to see more details of a specific row of data. Here you will see a list of all views you have created in this workspace.

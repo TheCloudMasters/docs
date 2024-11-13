@@ -1,5 +1,3 @@
-# Profiles and Permission Sets
-
 This is one of the places where ues.io shines above many other application building platforms. You can fine tune what users can do with their data in terms of their rights to perform updates, deletions, creating or viewing data.
 
 1. Permission Sets

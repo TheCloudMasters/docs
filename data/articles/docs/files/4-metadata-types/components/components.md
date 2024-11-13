@@ -1,5 +1,3 @@
-# Components
-
 Components are building blocks for your application and which can be used and for app assembly in the View Builder. Components can be inserted either by double clicking or simply by drag and drop and placed in the View Builder canvas. Most components have attributes that you can set including styling.
 
 Some components can be connected to your data collections via wires and some can execute signals/actions to perform a variety of tasks. You can also set a display condition so that the component appears and disappears according to a condition.
@@ -16,7 +14,7 @@ There are many components to choose from and if you don’t find something, or y
 
 ![Components](./image1.png "Components")
 
-## 1. LAYOUT
+## 1. Layout
 
 Used to produce high definition user interfaces with structured layout and responsiveness where desired.
 
@@ -37,7 +35,7 @@ Used to produce high definition user interfaces with structured layout and respo
 -   View Layout  
      Comes with a view header and additional layout structure for header, left panel, main, right panel and footer contents.
 
-## 2. CONTENT
+## 2. Content
 
 Great for creating rich views including video and images and much more.
 
@@ -64,7 +62,7 @@ Great for creating rich views including video and images and much more.
 -   Video  
      Run video in your view. Can be from a file or a URL.
 
-## 3. DATA
+## 3. Data
 
 These components can be connected to a wire that you create in the View Builder that is connected to a data Collection.
 
@@ -79,7 +77,7 @@ These components can be connected to a wire that you create in the View Builder 
 -   Table  
     A Table is used to display rows and columns of data with column headers.
 
-## 4. INTERACTION
+## 4. Interaction
 
 Interactions are very useful for creating short workflows that run in the front-end using Signals. There are many signal actions for a fine grained user experience.
 
@@ -91,7 +89,7 @@ Interactions are very useful for creating short workflows that run in the front-
 -   Search Box  
     Connect the Search Box to a Wire and search for data records. Other components using the same Wire will display the searched items. Set the specific fields you want to search for.
 
-## 5. VISUALIZATION
+## 5. Visualization
 
 Used to create charts and KPI screens.
 

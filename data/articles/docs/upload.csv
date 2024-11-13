@@ -87,7 +87,7 @@ wires,,2-core-concepts/wires/image2.png
 wires,,2-core-concepts/wires/image3.png
 signals,uesio/cms.content,2-core-concepts/signals/signals.md
 declarative-app-development,uesio/cms.content,2-core-concepts/declarative-app-development/declarative-app-development.md
-uesio-runtime,uesio/cms.content,2-core-concepts/uesio-runtime/uesio-runtime.md
+runtime,uesio/cms.content,2-core-concepts/runtime/runtime.md
 bundle-store,uesio/cms.content,2-core-concepts/bundle-store/bundle-store.md
 bundle-store,,2-core-concepts/bundle-store/image1.png
 bundle-store,,2-core-concepts/bundle-store/image2.png
@@ -98,11 +98,11 @@ workspaces,,2-core-concepts/workspaces/image5.png
 workspaces,,2-core-concepts/workspaces/image1.png
 workspaces,,2-core-concepts/workspaces/image2.png
 workspaces,,2-core-concepts/workspaces/image3.png
-uesio-security-model,uesio/cms.content,2-core-concepts/uesio-security-model/uesio-security-model.md
 teams,,2-core-concepts/teams/image1.png
 teams,uesio/cms.content,2-core-concepts/teams/teams.md
 teams,,2-core-concepts/teams/image2.png
 generators,uesio/cms.content,2-core-concepts/generators/generators.md
 deployment-and-bundles,uesio/cms.content,2-core-concepts/deployment-and-bundles/deployment-and-bundles.md
+security-model,uesio/cms.content,2-core-concepts/security-model/security-model.md
 multi-tenant-apps,uesio/cms.content,2-core-concepts/multi-tenant-apps/multi-tenant-apps.md
 layout-components,uesio/cms.content,5-built-in-components/layout-components.md

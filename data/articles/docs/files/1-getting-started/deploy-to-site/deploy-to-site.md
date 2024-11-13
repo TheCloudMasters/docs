@@ -1,5 +1,3 @@
-# Deploy your app to a site
-
 In the previous guide we went over creating your first app with Collections, Views and Routes. Our next step is to deploy what we've built to actual users. To do that we'll need to do a few things.
 
 1. Set our landing or "home" route. This is the route that users are directed to if they just go to the base url for your site.

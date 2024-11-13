@@ -1,5 +1,3 @@
-# Bots
-
 ues.io bots allow you to write custom server-side logic with TypeScript.
 
 See Bots as workflow processes that you create to do something when something happens. A simple example would be to tell the ues.io Bot to update a sales target reached checkbox when the sales figure matches the forecasted sales figure.

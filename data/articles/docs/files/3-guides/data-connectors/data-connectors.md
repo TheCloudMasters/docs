@@ -1,5 +1,3 @@
-# Connectors
-
 ues.io comes with a database where you can configure your data schema for your Collections as explained in the [Collections](collections) documentation but you can also connect to other data sources and let ues.io extend the functionality that is missing from other platforms. You can connect to multiple data sources and view all of them in ues.io and work with their data.
 
 Many of our connectors and the integrations for them are features that are included in our commercial license that is included in the Large Enterprise subscription but can be requested from [Support](support@ues.io) if you want to test it out.
@@ -11,9 +9,7 @@ The current connectors are available:
 3. ClickUp
 4. REST
 
-### 1. Salesforce
-
-#### In Salesforce
+## Salesforce
 
 -   You need to head over to the Setup cog and then to the App Manager menu.
 -   Click on the ‘New Connected App’ button.
@@ -28,7 +24,7 @@ The current connectors are available:
 -   Next you will see a view asking you to verify your identity by means of an email that was sent to the email address we entered when we created the connected app.
 -   Enter the code and ‘Verify’ and then you will see a view that displays the ‘Consumer Key’ and ‘Consumer Secret’ which we will use in the next steps.
 
-#### In ues.io
+## In ues.io
 
 -   Next head over to your ues.io app and to your Workspace and if you haven’t created an app yet you can read more about it in the [Create your first app](Create-your-first-app) documentation.
 -   Select the ‘Installed Bundles’ tile on the left and then select the ‘BROWSE BUNDLE STORE’ button. Look for the Salesforce Integration Bundle and install it.
@@ -46,7 +42,7 @@ The current connectors are available:
 -   Now head over to the [Views](views) tile and generate a list view and select the Collection ‘Accounts’.
 -   Preview the View and you will see a list of all the Accounts on Salesforce.
 
-#### Connectors in Production - Site Deployment
+## Connectors in Production - Site Deployment
 
 We connected to Salesforce in the Studio [Workspace](workspaces) which will allow you to build out your app while you are connected to the Salesforce instance but to move to production and a Site you will need to have your users login to the Site and perform an authentication into Salesforce from there. To do that you will need:
 
@@ -55,14 +51,14 @@ We connected to Salesforce in the Studio [Workspace](workspaces) which will allo
 -   A view with the workflow to perform the Salesforce authentication.
 -   User Profile and associated permission set to auto assign to new and existing users.
 
-### 2. Smartsheet
+## 2. Smartsheet
 
 -   Available on request with Docs
 
-### 3. ClickUp
+## 3. ClickUp
 
 -   Available on request with Docs
 
-### 4. REST
+## 4. REST
 
 -   Available on request with Docs

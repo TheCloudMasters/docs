@@ -1,3 +1,1 @@
-# Secrets and config values
-
-#### Coming soon.
+Coming soon.

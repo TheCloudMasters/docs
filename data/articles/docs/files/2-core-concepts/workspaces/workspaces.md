@@ -1,10 +1,8 @@
-# WORKSPACES.
-
 You can create and define your apps Data, User Interface and Administer security in a workspace. You can create as many workspaces as you need. See them as separate rooms you or a team member can work in or as branches for source control. It is good practice to use a source control tool like GitHub and keep one workspace as the source of truth and merge changes into that workspace from other workspaces in the form of branches.
 
 When you are finished working on your app you can package a new bundle version for a 1-click deployment to your site.
 
-#### We will walk through the following basics:
+We will walk through the following basics:
 
 1. Create a Workspace
 2. Workspace Admin
@@ -24,7 +22,7 @@ When you are finished working on your app you can package a new bundle version f
 
 -   When you create your workspace you can either start with a clean slate or you can choose to start with a prepackaged app in the form of a ‘Bundle’. Depending on which workspace this bundle was created from will determine what is created in the new workspace as it will transfer the exact configurations that were last made from the originating workspace.
 
-## 2. WORKSPACE ADMIN
+## 2. Workspace Admin
 
 ![Workspace Admin](./image4.png "Workspace Admin")
 
@@ -42,7 +40,7 @@ When you are finished working on your app you can package a new bundle version f
 -   Packaging  
     Here you can package your entire workspace into a bundled version. You can then deploy your bundle to a site that you created or create a new workspace with the bundled version so that you and your teams can work together.
 
-## 3. DATA STRUCTURE & CONTENT
+## 3. Data Structure & Content
 
 -   Bots  
     See Bots as workflow processes that you create to do something when something happens. A simple example would be to tell the ues.io Bot to update a sales target reached checkbox when the sales figure matches the forecasted sales figure.
@@ -58,7 +56,7 @@ When you are finished working on your app you can package a new bundle version f
 -   Files  
     Here can upload files that you wish to refernce from your app something like a logo or video and more.
 
-## 4. USER INTERFACE
+## 4. User Interface
 
 -   Views  
     This is where all the action happens. Here you can configure the user interface and the different components within each view as well as the wires that connect your data to the different components.
@@ -69,7 +67,7 @@ When you are finished working on your app you can package a new bundle version f
 -   Themes  
     You can set color defaults in your themes to manage brand uniformity where needed.
 
-## 5. SECURITY & ACCESS
+## 5. Security & Access
 
 -   Permission Sets  
     Set access to Files, Routes and Views and then assign the named permissions set to specific profiles.
@@ -89,7 +87,7 @@ When you are finished working on your app you can package a new bundle version f
 -   Signup Methods  
     Enable users to sign up for your app
 
-## 6. INTERNATIONALIZATION
+## 6. Internationalization
 
 -   Labels  
     Create labels that could be used on buttons or navigation that you can use in your translations to display the text in the user's local language.

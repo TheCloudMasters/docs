@@ -1,14 +1,12 @@
-# UES.IO CRM
-
 ## Introduction
 
 Slash CRM (Customer Relationship Management) costs and boost sales with [UESIO CRM](https://crm.ues.io/home)! Tired of expensive per-user fees for underutilized features? [UESIO CRM](https://crm.ues.io/home) offers a breath of fresh air. Our **Free Plan** equips your first 5 users with powerful CRM tools to manage Leads, Accounts, Contacts, Opportunities, Tasks, Activities and Events – all at no cost. Need to expand? Our $99 monthly plan unlocks unlimited users and extensive customization to perfectly fit your workflow. [UESIO CRM](https://crm.ues.io/home) is also open-source, ensuring transparent development and fostering a collaborative community. But wait, there's more! UESIO offers the option to integrate powerful AI functionalities, further streamlining your sales leads process and boosting efficiency. Take control of your sales pipeline today!
 
-### Why did we do this?
+## Why did we do this?
 
 We want to showcase the development capabilities of ues.io and decided to build a CRM app as an example of what can be done in a short space of time and some of the functionality that can be introduced to your own apps. You can build other apps in a similar way and either list them in the ues.io [Bundle Store](https://docs.ues.io/bundle-store) for users to subscribe to or as an internal app for your organisation.
 
-### What is included?
+## What is included?
 
 **Leads** - Lead management is the process of nurturing potential customers from initial interest to closed deals. You can also build out a contact form on your website as an additional lead generation source and create a new record automatically in the leads database when someone completes the form.
 
@@ -30,16 +28,16 @@ We want to showcase the development capabilities of ues.io and decided to build 
 
 **Anthropic AI** - We included a version of Claude 3 Sonnet in the Lead Detail view to demonstrate how you can make use of AI to quickly gather information on your new lead.
 
-### How to upgrade to unlimited users?
+## How to upgrade to unlimited users?
 
 **Pricing Tab** - Visit the [pricing tab](https://ues.io/pricing) and select the $99/month option and complete your registration after which you will receive an email with your username where you can set your password. Afterwards you will have access to your own ues.io (User Experience Studio) where you can customize your CRM system, add as many users as you like and build other apps.
 
-### Open-Source
+## Open-Source
 
 **Repository** - You can visit our [Git Repo](https://github.com/ues-io/crm) if you would like to make changes or additions to the app to be considered for inclusion in one of our sprints as part of our collaborative community members.
 
 **More Features** - As we move forward with further iterations we will be including additional features and integrations to improve your experience and functionality by popular demand and community member contributions.
 
-### Get Started Now
+## Get Started Now
 
 **Sign Up** - Visit the [UES.IO CRM Website](https://crm.ues.io/home) and select the [GET STARTED](https://crm.ues.io/getstarted) button to claim your own CRM organization for **FREE**.

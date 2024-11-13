@@ -1,5 +1,3 @@
-# Creating Custom Components
-
 One of the places we use components is in the Studio View Builder. If you want to know more about components you can head over to the [Components Documentation](components). Here we are going to talk about creating custom components using the ues.io CLI and your favorite code editor and source control tool. Link here to the [Tutorial Video](https://youtu.be/KW6-lreASEQ)
 
 1. What is a Custom Component

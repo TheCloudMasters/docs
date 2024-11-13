@@ -1,5 +1,3 @@
-# The Bundle Store
-
 Because we chose managed packages as part of our architecture when we built ues.io our users can install bundled applications or components from our public Bundle Store to their [Workspaces](workspaces) and then customize or include them in their own applications that they are building.
 
 The bundles could be complete working applications or any parts that make up a complete application like tables or designs and more. This gives our users extreme abilities to extend and enrich their applications and shortening their development cycles. An example, if you build a simple accounting application and you need an inventory management application you could head over to the Bundle Store and install an inventory management application and it would be available in your Workspace where you can customize your application to include it and then package your application, including the bundle you installed, as a single application.

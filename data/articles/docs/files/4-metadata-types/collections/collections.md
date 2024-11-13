@@ -1,5 +1,3 @@
-# Collections
-
 Collections are where you define your data storage and the data schema. A schema defines the structure of the data, including:
 
 -   Collections: Represent categories of information, like "customer" or "product."

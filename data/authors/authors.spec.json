@@ -1,0 +1,19 @@
+{
+	"jobtype": "IMPORT",
+	"collection": "uesio/cms.author",
+	"filetype": "CSV",
+	"mappings": {
+		"uesio/cms.firstname": {
+			"columnname": "firstname"
+		},
+		"uesio/cms.lastname": {
+			"columnname": "lastname"
+		},
+		"uesio/cms.title": {
+			"columnname": "title"
+		},
+		"uesio/cms.external_id": {
+			"columnname": "external_id"
+		}
+	}
+}

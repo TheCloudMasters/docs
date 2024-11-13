@@ -1,5 +1,3 @@
-# Wires
-
 If you think about Wires you think about electricity, that’s what Wires do to the Studio View Builder experience. Wires are used to connect to your data Collections and can be referenced and used to interact with and control how data is displayed in the View. You can use many Wires in the Studio View Builder connected to a single or many data sources. You may want to use a wire just for search functionality so that it does not disturb the views of any tables or lists that are connected to the same Wire as an example. Think of a Wire as a transport path for data that can be configured to do things a Collection of data would not do as it would affect all users of the same data while working with it.
 
 1. Creating a Wire

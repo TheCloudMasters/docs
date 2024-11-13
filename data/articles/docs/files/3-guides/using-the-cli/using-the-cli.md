@@ -1,5 +1,3 @@
-# Interacting with ues.io via the command line
-
 ## Download the CLI
 
 Uesio's CLI is distributed as a platform-specific binary executable.
