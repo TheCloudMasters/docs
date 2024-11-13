@@ -1,5 +1,5 @@
 name: public
-label: Docs Site Public Profile
+label: Public Profile
 permissionSets:
   - uesio/docs.public
   - uesio/cms.public
