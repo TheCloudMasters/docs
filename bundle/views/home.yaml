@@ -1,61 +1,15 @@
 name: home
 definition:
-  wires:
-    article:
-      collection: uesio/cms.article
-      fields:
-        uesio/core.id:
-        uesio/cms.slug:
-        uesio/cms.name:
-        uesio/cms.description:
-        uesio/cms.content:
-      conditions:
-        - field: uesio/cms.slug
-          param: slug
-          valueSource: PARAM
-    attachments:
-      collection: uesio/core.userfile
-      fields:
-        uesio/core.id:
-        uesio/core.path:
-        uesio/core.recordid:
-        uesio/core.updatedat:
-      conditions:
-        - field: uesio/core.recordid
-          valueSource: LOOKUP
-          lookupWire: article
-          lookupField: uesio/core.id
   components:
-    - uesio/io.item:
-        wire: article
-        components:
-          - uesio/io.viewlayout:
-              uesio.variant: uesio/cms.default
-              header:
-                - uesio/core.view:
-                    view: uesio/docs.topbar
-              left:
-                - uesio/core.view:
-                    view: uesio/docs.navbar
-                    params:
-                      title: ${article:name}
-                      selected: ${article:slug}
-              right:
-                - uesio/cms.navsection:
-                    title: Table of Contents
-                    items:
-                      - uesio/io.markdownnavigation:
-                          uesio.variant: uesio/io.tile:uesio/cms.navitem
-                          fieldId: uesio/cms.content
-              content:
-                - uesio/io.titlebar:
-                    uesio.variant: uesio/cms.article
-                    title: ${name}
-                    subtitle: ${description}
-                - uesio/io.field:
-                    uesio.variant: uesio/io.markdownfield:uesio/cms.markdown
-                    fieldId: uesio/cms.content
-                    labelPosition: none
-                    displayAs: MARKDOWN
-                    markdown:
-                      attachmentsWire: attachments
+    - uesio/core.view:
+        view: uesio/cms.article_public
+        uesio.id: article
+        params:
+          slug: $Param{slug}
+        slots:
+          header:
+            - uesio/core.view:
+                view: uesio/docs.topbar
+          left:
+            - uesio/core.view:
+                view: uesio/docs.navbar
