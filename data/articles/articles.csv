@@ -3,30 +3,30 @@ home,Introduction,Learn to build and deploy apps with ues.io.,ben
 create-account,Create an account,Sign up for a ues.io account to access the studio.,gregg
 first-app,Create your first app,"Learn about apps and workspaces.",gregg
 deploy-to-site,Deploy your app,"Learn how to to deploy your first app to a real domain using sites.",gregg
-bundle-store,The bundle store,"Learn how to package, distribute, and monetize apps with the ues.io Bundle Store",gregg
-declarative-app-development,Declarative app development,"Understand how to build declarative apps",gregg
-deployment-and-bundles,Deployment and bundles,"Package your app metadata into bundles to deploy it to sites",gregg
-generators,Generators,"Rapidly create workspace metadata with templated, parameterized generators",gregg
+declarative-app-development,Declarative App Development,"Understand how to build declarative apps",gregg
 multi-tenant-apps,Multi-tenant Apps,"Key concepts of multi-tenant app development",gregg
-signals,Signals,"Signals make your views dynamic",gregg
-runtime,The ues.io runtime,"The ues.io runtime and application architecture",gregg
-security-model,The ues.io security model,"Understand the ues.io security model",gregg
+runtime,The ues.io Runtime,"The ues.io runtime and application architecture",gregg
+security-model,The ues.io Security Model,"Understand the ues.io security model",gregg
+deployment-and-bundles,Deployment and App Bundles,"Package your app metadata into bundles to deploy it to sites",gregg
+bundle-store,The Bundle Store,"Learn how to package, distribute, and monetize apps with the ues.io Bundle Store",gregg
 wires,Wires,"Load and save collection data with wires",gregg
-creating-custom-components,Guide: Creating custom components,"Guide: Creating custom components",gregg
-self-hosting-uesio,Guide: Self-hosting ues.io,"Run ues.io in your own infrastructure",gregg
-using-the-cli,Guide: Using the CLI,"Drive ues.io from the command line with the ues.io CLI",gregg
-bots,Bots,"Write custom server-side logic with bots",gregg
-collections,Collections,"Define your data types with collections",gregg
-components,Components,"Components are the building blocks of ues.io views",gregg
-files,Files,"Use files to include images, videos, and other static content in your apps",gregg
-labels-and-translations,Labels and Translations,"Internationalize your apps with labels and translations",gregg
-profiles-and-permission-sets,Profiles and Permission Sets,"Grant users access to your metadata with Profiles and Permission Sets",gregg
-routes,Routes,"Define URL paths where your views can be accessed with routes",gregg
-secrets-and-config-values,Secrets and config values,"Define dynamic application configuration values with config values and secrets",gregg
-views,Views,"Create user interfaces with views",gregg
+signals,Signals,"Signals make your views dynamic",gregg
+generators,Generators,"Rapidly create workspace metadata with templated, parameterized generators",gregg
 workspaces,Workspaces,"Develop and make changes to your apps with workspaces",gregg
 teams,Teams,"Work together on apps with teams",gregg
+using-the-cli,Using the ues.io CLI,"Drive ues.io from the command line with the ues.io CLI",gregg
+creating-custom-components,Creating Custom Components,"Guide: Creating custom components",gregg
+self-hosting-uesio,Self-hosting with ues.io server,"Run ues.io in your own infrastructure",gregg
 data-connectors,Data Connectors,"Conect to external data",gregg
 ai-integration,AI Integration,"Connect to AI models",gregg
+collections,Collections and Select Lists,"Define your data types with collections",gregg
+files,Files,"Use files to include images, videos, and other static content in your apps",gregg
+routes,Routes,"Define URL paths where your views can be accessed with routes",gregg
+views,Views,"Create user interfaces with views",gregg
+components,Components,"Components are the building blocks of ues.io views",gregg
+labels-and-translations,Labels and Translations,"Internationalize your apps with labels and translations",gregg
+secrets-and-config-values,Secrets and Config Values,"Define dynamic application configuration values with config values and secrets",gregg
+profiles-and-permission-sets,Profiles and Permission Sets,"Grant users access to your metadata with Profiles and Permission Sets",gregg
+bots,Bots,"Write custom server-side logic with bots",gregg
 layout-components,Layout Components,"Layout components in views",gregg
-crm,ues.io CRM,"A refreshingly simple CRM",gregg
+crm,CRM Introduction,"A refreshingly simple CRM",gregg

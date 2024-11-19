@@ -2,7 +2,6 @@ name: public
 named: {}
 views:
   uesio/docs.home: true
-  uesio/docs.navbar: true
   uesio/docs.topbar: true
 collections:
 routes:

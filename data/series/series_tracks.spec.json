@@ -1,0 +1,16 @@
+{
+	"jobtype": "IMPORT",
+	"collection": "uesio/cms.series_track",
+	"filetype": "CSV",
+	"mappings": {
+		"uesio/cms.track": {
+			"columnname": "track"
+		},
+		"uesio/cms.series": {
+			"columnname": "series"
+		},
+		"uesio/cms.order": {
+			"columnname": "order"
+		}
+	}
+}

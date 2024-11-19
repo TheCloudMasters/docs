@@ -12,4 +12,8 @@ definition:
                 view: uesio/docs.topbar
           left:
             - uesio/core.view:
-                view: uesio/docs.navbar
+                uesio.id: nav
+                view: uesio/cms.series_nav
+                params:
+                  selected: $Param{slug}
+                  slug: main

@@ -7,7 +7,7 @@ crnl="\r\n"
 
 rm -f "$csvPath"
 touch "$csvPath"
-printf "uesio/core.recordid,uesio/core.fieldid,uesio/core.path$crnl" >> $csvPath
+printf "uesio/core.recordid,uesio/core.fieldid,uesio/core.path,uesio/core.sourcepath$crnl" >> $csvPath
 
 # We expect a structure where files are nested at a max of 2 levels,
 # e.g. 
@@ -31,10 +31,10 @@ do
     basefile=$(basename -- "$file")
     filename="${basefile%.*}"
     if [[ $file == *".md" ]]; then
-        printf "$filename,uesio/cms.content,$relative_path$crnl" >> $csvPath
+        printf "$filename,uesio/cms.content,$basefile,$relative_path$crnl" >> $csvPath
     else
         # we need to get the dirname to know where to attach it to
         dirname=$(basename $(dirname "$file"))
-        printf "$dirname,,$relative_path$crnl" >> $csvPath
+        printf "$dirname,,$basefile,$relative_path$crnl" >> $csvPath
     fi
 done
