@@ -1,33 +1,33 @@
-slug,name,description,author
-home,Introduction,Learn to build and deploy apps with ues.io.,ben
-create-account,Create an account,Sign up for a ues.io account to access the studio.,gregg
-first-app,Create your first app,"Learn about apps how to create them.",ben
-making-changes,Making changes to your app,"Learn about making changes to your app with workspaces",gregg
-deploy-to-site,Deploy your app,"Learn how to to deploy your first app to a real domain using sites.",gregg
-declarative-app-development,Declarative App Development,"Understand how to build declarative apps",gregg
-multi-tenant-apps,Multi-tenant Apps,"Key concepts of multi-tenant app development",gregg
-runtime,The ues.io Runtime,"The ues.io runtime and application architecture",gregg
-security-model,The ues.io Security Model,"Understand the ues.io security model",gregg
-deployment-and-bundles,Deployment and App Bundles,"Package your app metadata into bundles to deploy it to sites",gregg
-bundle-store,The Bundle Store,"Learn how to package, distribute, and monetize apps with the ues.io Bundle Store",gregg
-wires,Wires,"Load and save collection data with wires",gregg
-signals,Signals,"Signals make your views dynamic",gregg
-generators,Generators,"Rapidly create workspace metadata with templated, parameterized generators",gregg
-workspaces,Workspaces,"Develop and make changes to your apps with workspaces",gregg
-teams,Teams,"Work together on apps with teams",gregg
-using-the-cli,Using the ues.io CLI,"Drive ues.io from the command line with the ues.io CLI",gregg
-creating-custom-components,Creating Custom Components,"Guide: Creating custom components",gregg
-self-hosting-uesio,Self-hosting with ues.io server,"Run ues.io in your own infrastructure",gregg
-data-connectors,Data Connectors,"Conect to external data",gregg
-ai-integration,AI Integration,"Connect to AI models",gregg
-collections,Collections and Select Lists,"Define your data types with collections",gregg
-files,Files,"Use files to include images, videos, and other static content in your apps",gregg
-routes,Routes,"Define URL paths where your views can be accessed with routes",gregg
-views,Views,"Create user interfaces with views",gregg
-components,Components,"Components are the building blocks of ues.io views",gregg
-labels-and-translations,Labels and Translations,"Internationalize your apps with labels and translations",gregg
-secrets-and-config-values,Secrets and Config Values,"Define dynamic application configuration values with config values and secrets",gregg
-profiles-and-permission-sets,Profiles and Permission Sets,"Grant users access to your metadata with Profiles and Permission Sets",gregg
-bots,Bots,"Write custom server-side logic with bots",gregg
-layout-components,Layout Components,"Layout components in views",gregg
-crm,CRM Introduction,"A refreshingly simple CRM",gregg
+slug,name,description,author,published
+home,Introduction,Learn to build and deploy apps with ues.io.,ben,true
+create-account,Create an account,Sign up for a ues.io account to access the studio.,gregg,true
+first-app,Create your first app,"Learn about apps how to create them.",ben,true
+making-changes,Making changes to your app,"Learn about making changes to your app with workspaces",gregg,false
+deploy-to-site,Deploy your app,"Learn how to to deploy your first app to a real domain using sites.",gregg,true
+declarative-app-development,Declarative App Development,"Understand how to build declarative apps",gregg,true
+multi-tenant-apps,Multi-tenant Apps,"Key concepts of multi-tenant app development",gregg,true
+runtime,The ues.io Runtime,"The ues.io runtime and application architecture",gregg,true
+security-model,The ues.io Security Model,"Understand the ues.io security model",gregg,true
+deployment-and-bundles,Deployment and App Bundles,"Package your app metadata into bundles to deploy it to sites",gregg,true
+bundle-store,The Bundle Store,"Learn how to package, distribute, and monetize apps with the ues.io Bundle Store",gregg,true
+wires,Wires,"Load and save collection data with wires",gregg,true
+signals,Signals,"Signals make your views dynamic",gregg,true
+generators,Generators,"Rapidly create workspace metadata with templated, parameterized generators",gregg,true
+workspaces,Workspaces,"Develop and make changes to your apps with workspaces",gregg,true
+teams,Teams,"Work together on apps with teams",gregg,true
+using-the-cli,Using the ues.io CLI,"Drive ues.io from the command line with the ues.io CLI",gregg,true
+creating-custom-components,Creating Custom Components,"Guide: Creating custom components",gregg,true
+self-hosting-uesio,Self-hosting with ues.io server,"Run ues.io in your own infrastructure",gregg,true
+data-connectors,Data Connectors,"Conect to external data",gregg,true
+ai-integration,AI Integration,"Connect to AI models",gregg,true
+collections,Collections and Select Lists,"Define your data types with collections",gregg,true
+files,Files,"Use files to include images, videos, and other static content in your apps",gregg,true
+routes,Routes,"Define URL paths where your views can be accessed with routes",gregg,true
+views,Views,"Create user interfaces with views",gregg,true
+components,Components,"Components are the building blocks of ues.io views",gregg,true
+labels-and-translations,Labels and Translations,"Internationalize your apps with labels and translations",gregg,true
+secrets-and-config-values,Secrets and Config Values,"Define dynamic application configuration values with config values and secrets",gregg,true
+profiles-and-permission-sets,Profiles and Permission Sets,"Grant users access to your metadata with Profiles and Permission Sets",gregg,true
+bots,Bots,"Write custom server-side logic with bots",gregg,true
+layout-components,Layout Components,"Layout components in views",gregg,true
+crm,CRM Introduction,"A refreshingly simple CRM",gregg,true

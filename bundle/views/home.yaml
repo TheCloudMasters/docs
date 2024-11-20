@@ -17,3 +17,5 @@ definition:
                 params:
                   selected: $Param{slug}
                   slug: main
+                  prefix:
+                  namespace: uesio/docs
