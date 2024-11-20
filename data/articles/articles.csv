@@ -1,7 +1,8 @@
 slug,name,description,author
 home,Introduction,Learn to build and deploy apps with ues.io.,ben
 create-account,Create an account,Sign up for a ues.io account to access the studio.,gregg
-first-app,Create your first app,"Learn about apps and workspaces.",gregg
+first-app,Create your first app,"Learn about apps how to create them.",ben
+making-changes,Making changes to your app,"Learn about making changes to your app with workspaces",gregg
 deploy-to-site,Deploy your app,"Learn how to to deploy your first app to a real domain using sites.",gregg
 declarative-app-development,Declarative App Development,"Understand how to build declarative apps",gregg
 multi-tenant-apps,Multi-tenant Apps,"Key concepts of multi-tenant app development",gregg
