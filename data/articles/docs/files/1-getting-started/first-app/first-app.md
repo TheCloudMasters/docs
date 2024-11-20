@@ -25,9 +25,13 @@ Before we move on, go ahead and create your first app by clicking the + button i
 
 Think of a name for your app. It's best practice to keep your app names as short as possible. For example, if you were creating a Customer Relationship Management app, just call the app `crm`. App names cannot contain spaces or any special characters. Only the lowercase characters a-z, the numbers 0-9, and the underscore character are allowed.
 
+If you want to follow along with me, use "pets" as the app name.
+
 ### 2. Give your app a description.
 
 The description of your app is not required and can be changed at any time (unlike your app's name). Feel free to leave this blank or put in a brief description of your app. If you plan to use any of the AI App generation tools, this description can be useful for helping AI models determine the kind of app you want to create.
+
+If you want to follow along with me, use "An app for keeping track of my pets." as the app description.
 
 ### 3. Set the owner field.
 
@@ -57,7 +61,7 @@ The Empty App option is for advanced users who want to start with a blank slate.
 
 For the purposes of this guide, just select the App Kit starter template and go on to the starter template options section.
 
-![Starter Templates](./startertemplates.png "starter templates")
+![Starter Templates](./starter_templates.png "starter templates")
 
 ### Starter Template Options
 
@@ -65,4 +69,4 @@ This section is different depending on which starter template you choose. For no
 
 ## Next Steps
 
-Congratulations! You've created your first ues.io application. Click the next guide to learn about making changes to your app in Workspaces.
+Congratulations! You've created your first ues.io application and are now on the app home screen. To learn more about this screen and what was created for you with the App Kit starter template, go on to the next guide, "Getting started with App Kit".

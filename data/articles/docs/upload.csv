@@ -62,11 +62,15 @@ making-changes,,createroute.png,1-getting-started/making-changes/createroute.png
 making-changes,,listviewgeneratorparams.png,1-getting-started/making-changes/listviewgeneratorparams.png
 making-changes,,generatesampledata.png,1-getting-started/making-changes/generatesampledata.png
 making-changes,,routepreview.png,1-getting-started/making-changes/routepreview.png
+appkit-starter,uesio/cms.content,appkit-starter.md,1-getting-started/appkit-starter/appkit-starter.md
+appkit-starter,,site_home.png,1-getting-started/appkit-starter/site_home.png
+appkit-starter,,app_home.png,1-getting-started/appkit-starter/app_home.png
+appkit-starter,,workspace_home.png,1-getting-started/appkit-starter/workspace_home.png
+first-app,,starter_templates.png,1-getting-started/first-app/starter_templates.png
 first-app,,color_icon.png,1-getting-started/first-app/color_icon.png
 first-app,,newappbutton.png,1-getting-started/first-app/newappbutton.png
 first-app,uesio/cms.content,first-app.md,1-getting-started/first-app/first-app.md
 first-app,,name_description_owner.png,1-getting-started/first-app/name_description_owner.png
-first-app,,startertemplates.png,1-getting-started/first-app/startertemplates.png
 create-account,uesio/cms.content,create-account.md,1-getting-started/create-account.md
 deploy-to-site,,image8.png,1-getting-started/deploy-to-site/image8.png
 deploy-to-site,,image9.png,1-getting-started/deploy-to-site/image9.png

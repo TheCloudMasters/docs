@@ -2,8 +2,9 @@ slug,name,description,author,published
 home,Introduction,Learn to build and deploy apps with ues.io.,ben,true
 create-account,Create an account,Sign up for a ues.io account to access the studio.,gregg,true
 first-app,Create your first app,"Learn about apps how to create them.",ben,true
+appkit-starter,Get started with App Kit,"Creating apps with the App Kit tools.",ben,true
 making-changes,Making changes to your app,"Learn about making changes to your app with workspaces",gregg,false
-deploy-to-site,Deploy your app,"Learn how to to deploy your first app to a real domain using sites.",gregg,true
+deploy-to-site,Deploy your app,"Learn how to to deploy your first app to a real domain using sites.",gregg,false
 declarative-app-development,Declarative App Development,"Understand how to build declarative apps",gregg,true
 multi-tenant-apps,Multi-tenant Apps,"Key concepts of multi-tenant app development",gregg,true
 runtime,The ues.io Runtime,"The ues.io runtime and application architecture",gregg,true
