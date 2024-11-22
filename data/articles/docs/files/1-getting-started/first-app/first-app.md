@@ -19,7 +19,7 @@ At this point, you've already interacted with 4 different apps owned by the uesi
 
 Before we move on, go ahead and create your first app by clicking the + button in the top left of the sidebar. If you haven't created any other apps yet, there will also be a larger button directing you to create an app.
 
-![Create your first app](./newappbutton.png "create your first app")
+![Create your first app](./newappbutton.png "Create your first app.")
 
 ### 1. Pick your app's name and owner.
 
@@ -37,13 +37,13 @@ If you want to follow along with me, use "An app for keeping track of my pets." 
 
 If you're just getting started, you can just leave the owner of your app as the default (you). If you're doing work on behalf of an organization, you would select your organization here instead of yourself.
 
-![Name Description Owner](./name_description_owner.png "name description owner")
+![Name Description Owner](./name_description_owner.png "Set your app's name, description and owner.")
 
 ### 4. and 5. Give your app a color and icon.
 
 Since ues.io allows apps to inherit functionality from other apps, it's nice to have a quick way to recognize an app at a glance. Just pick a color and icon that feels right. (Don't agonize over it too much, you can always change these at any time.)
 
-![Color Icon](./color_icon.png "color icon")
+![Color Icon](./color_icon.png "Set your app's color and icon.")
 
 In the next section of the app creation process, we can select a starting point for our app.
 
@@ -61,7 +61,7 @@ The Empty App option is for advanced users who want to start with a blank slate.
 
 For the purposes of this guide, just select the App Kit starter template and go on to the starter template options section.
 
-![Starter Templates](./starter_templates.png "starter templates")
+![Starter Templates](./starter_templates.png "Get started quickly with starter templates.")
 
 ### Starter Template Options
 
