@@ -71,7 +71,6 @@ first-app,,color_icon.png,1-getting-started/first-app/color_icon.png
 first-app,,newappbutton.png,1-getting-started/first-app/newappbutton.png
 first-app,uesio/cms.content,first-app.md,1-getting-started/first-app/first-app.md
 first-app,,name_description_owner.png,1-getting-started/first-app/name_description_owner.png
-create-account,uesio/cms.content,create-account.md,1-getting-started/create-account.md
 deploy-to-site,,image8.png,1-getting-started/deploy-to-site/image8.png
 deploy-to-site,,image9.png,1-getting-started/deploy-to-site/image9.png
 deploy-to-site,uesio/cms.content,deploy-to-site.md,1-getting-started/deploy-to-site/deploy-to-site.md
@@ -85,6 +84,11 @@ deploy-to-site,,image5.png,1-getting-started/deploy-to-site/image5.png
 deploy-to-site,,image1.png,1-getting-started/deploy-to-site/image1.png
 deploy-to-site,,image2.png,1-getting-started/deploy-to-site/image2.png
 deploy-to-site,,image3.png,1-getting-started/deploy-to-site/image3.png
+create-account,,pick_auth_method.png,1-getting-started/create-account/pick_auth_method.png
+create-account,,check_availability.png,1-getting-started/create-account/check_availability.png
+create-account,,provide_user_details.png,1-getting-started/create-account/provide_user_details.png
+create-account,uesio/cms.content,create-account.md,1-getting-started/create-account/create-account.md
+create-account,,signup_confirmation.png,1-getting-started/create-account/signup_confirmation.png
 wires,uesio/cms.content,wires.md,2-core-concepts/wires/wires.md
 wires,,image4.png,2-core-concepts/wires/image4.png
 wires,,image5.png,2-core-concepts/wires/image5.png
