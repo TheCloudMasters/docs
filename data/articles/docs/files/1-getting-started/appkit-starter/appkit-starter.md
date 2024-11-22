@@ -11,7 +11,7 @@ The app home screen shows an app admin navigation section and a list of the Site
 5. Created a domain of type "subdomain" and name `<username-appname-sitename>` and assigned it to your prod site.
 6. Created a user called `<your-username>` and gave them an admin profile in your app.
 
-![App Home](./app_home.png "app home")
+![App Home](./app_home.png "The app home screen")
 
 ## Your First Workspace
 
@@ -23,7 +23,7 @@ For those familiar with Git, a workspace is similar to a Git branch. You could j
 
 Here's a quick overview of the workspace home screen.
 
-![Workspace Home](./workspace_home.png "workspace home")
+![Workspace Home](./workspace_home.png "The workspace home screen")
 
 ### 1. Recent Items
 
@@ -59,7 +59,7 @@ Sites are how we publish our app to users. Each site is a separate "tenant" of t
 
 Here's a quick overview of the site home screen.
 
-![Site Home](./site_home.png "site home")
+![Site Home](./site_home.png "The site home screen")
 
 ### 1. Monthly Route Loads
 
