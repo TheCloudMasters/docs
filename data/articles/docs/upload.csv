@@ -84,6 +84,12 @@ deploy-to-site,,image5.png,1-getting-started/deploy-to-site/image5.png
 deploy-to-site,,image1.png,1-getting-started/deploy-to-site/image1.png
 deploy-to-site,,image2.png,1-getting-started/deploy-to-site/image2.png
 deploy-to-site,,image3.png,1-getting-started/deploy-to-site/image3.png
+appkit-generators,uesio/cms.content,appkit-generators.md,1-getting-started/appkit-generators/appkit-generators.md
+appkit-generators,,generate_collection_prompts.png,1-getting-started/appkit-generators/generate_collection_prompts.png
+appkit-generators,,sample_data_prompts.png,1-getting-started/appkit-generators/sample_data_prompts.png
+appkit-generators,,generate_collection.png,1-getting-started/appkit-generators/generate_collection.png
+appkit-generators,,generator_results_tour.png,1-getting-started/appkit-generators/generator_results_tour.png
+appkit-generators,,route_preview.png,1-getting-started/appkit-generators/route_preview.png
 create-account,,pick_auth_method.png,1-getting-started/create-account/pick_auth_method.png
 create-account,,check_availability.png,1-getting-started/create-account/check_availability.png
 create-account,,provide_user_details.png,1-getting-started/create-account/provide_user_details.png

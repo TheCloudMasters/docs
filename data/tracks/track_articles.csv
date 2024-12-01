@@ -3,8 +3,9 @@ getting-started,home,0
 getting-started,create-account,1
 getting-started,first-app,2
 getting-started,appkit-starter,3
-getting-started,making-changes,4
-getting-started,deploy-to-site,5
+getting-started,appkit-generators,4
+getting-started,making-changes,5
+getting-started,deploy-to-site,6
 core-concepts,declarative-app-development,0
 core-concepts,multi-tenant-apps,1
 core-concepts,runtime,2
