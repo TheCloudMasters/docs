@@ -5,6 +5,7 @@ ai-integration,uesio/cms.content,ai-integration.md,3-guides/ai-integration/ai-in
 ai-integration,,image1.png,3-guides/ai-integration/image1.png
 creating-custom-components,uesio/cms.content,creating-custom-components.md,3-guides/creating-custom-components/creating-custom-components.md
 using-the-cli,uesio/cms.content,using-the-cli.md,3-guides/using-the-cli/using-the-cli.md
+rest-api,uesio/cms.content,rest-api.md,3-guides/rest-api/rest-api.md
 crm,uesio/cms.content,crm.md,6-crm/crm.md
 bots,uesio/cms.content,bots.md,4-metadata-types/bots/bots.md
 labels-and-translations,uesio/cms.content,labels-and-translations.md,4-metadata-types/labels-and-translations/labels-and-translations.md

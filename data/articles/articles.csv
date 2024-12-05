@@ -21,6 +21,7 @@ using-the-cli,Using the ues.io CLI,"Drive ues.io from the command line with the 
 creating-custom-components,Creating Custom Components,"Guide: Creating custom components",gregg,true
 self-hosting-uesio,Self-hosting with ues.io server,"Run ues.io in your own infrastructure",gregg,true
 data-connectors,Data Connectors,"Conect to external data",gregg,true
+rest-api,Connecting to Rest APIs,"Build out connections Rest APIs",gregg,true
 ai-integration,AI Integration,"Connect to AI models",gregg,true
 collections,Collections and Select Lists,"Define your data types with collections",gregg,true
 files,Files,"Use files to include images, videos, and other static content in your apps",gregg,true

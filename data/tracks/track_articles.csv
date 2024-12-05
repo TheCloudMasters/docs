@@ -21,7 +21,8 @@ guides,using-the-cli,0
 guides,creating-custom-components,1
 guides,self-hosting-uesio,2
 guides,data-connectors,3
-guides,ai-integration,4
+guides,rest-api,4
+guides,ai-integration,5
 metadata-types,collections,0
 metadata-types,files,1
 metadata-types,routes,2
